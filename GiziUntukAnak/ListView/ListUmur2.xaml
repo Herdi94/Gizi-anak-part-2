@@ -9,5 +9,86 @@
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+
+        </Grid.RowDefinitions>
+        <RelativePanel Background="Green">
+            <StackPanel Orientation="Horizontal">
+            <Button Name="btnHamburger" FontFamily="Segoe MDL2 Assets" Content="&#xE700;" FontSize="36" Click="btnHamburger_Click" HorizontalAlignment="Stretch" VerticalAlignment="Bottom"/>
+                <TextBlock Text="Gizi Seimbang untuk usia 0 - 2 tahun" Foreground="Azure"  VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="15"></TextBlock>
+            </StackPanel>
+            </RelativePanel>
+        <SplitView 
+            Name="splitView1" 
+            Grid.Row="1" 
+            DisplayMode="CompactOverlay" 
+            OpenPaneLength="200" 
+            CompactPaneLength="56" 
+            HorizontalAlignment="Left"
+            IsPaneOpen="False"
+            
+            >
+            <SplitView.Pane>
+                <ListBox SelectionMode="Single"  Name="iconListBox" SelectionChanged="iconListBox_SelectionChanged" Background="Azure">
+                    <ListBoxItem Name="BerandaListBoxItem">
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock FontFamily="Segoe MDL2 Assets" FontSize="30" Text="&#xe80F;"/>
+                            <TextBlock Text="Beranda" FontSize="16" Margin="20,0,0,0"/>
+                        </StackPanel>
+                    </ListBoxItem>
+                    <ListBoxItem Name="polaListBoxItem">
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock FontFamily="Segoe MDL2 Assets" FontSize="30" Text="&#xE1D7;"/>
+                            <TextBlock Text="Gizi Seimbang" FontSize="16" Margin="20,0,0,0"/>
+                        </StackPanel>
+                    </ListBoxItem>
+
+                    <ListBoxItem Name="kalkulatorListBoxItem">
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock FontFamily="Segoe MDL2 Assets" FontSize="30" Text="&#xE1D0;"/>
+                            <TextBlock Text="Kalkulator Gizi" FontSize="16" Margin="20,0,0,0"/>
+                        </StackPanel>
+                    </ListBoxItem>
+
+                    <ListBoxItem Name="TentangListBoxItem">
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock FontFamily="Segoe MDL2 Assets" FontSize="30" Text="&#xE946;"/>
+                            <TextBlock Text="Tentang" FontSize="16" Margin="20,0,0,0"/>
+                        </StackPanel>
+                    </ListBoxItem>
+
+                </ListBox>
+            </SplitView.Pane>
+            <!--Tab Pivot-->
+            <Pivot>
+
+                <PivotItem>
+                    <PivotItem.Header>
+                        <local:TabHeader Label="Permasalahan" Glyph="&#xE716;"  Width="78" />
+                    </PivotItem.Header>
+                    <TextBlock>Content 1</TextBlock>
+                </PivotItem>
+
+                <PivotItem>
+                    <PivotItem.Header>
+                        <local:TabHeader Label="Kebutuhan" Glyph="&#xE8FB;" />
+                    </PivotItem.Header>
+                    <TextBlock>Content 2</TextBlock>
+                </PivotItem>
+
+                <PivotItem>
+                    <PivotItem.Header>
+                        <local:TabHeader Label="Prinsip Gizi" Glyph="&#xE76E;"/>
+                    </PivotItem.Header>
+                    <TextBlock>Content 3</TextBlock>
+                </PivotItem>
+
+            </Pivot>
+
+
+        </SplitView>
+       
     </Grid>
 </Page>

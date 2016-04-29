@@ -26,5 +26,32 @@ namespace GiziUntukAnak.ListView
         {
             this.InitializeComponent();
         }
+
+        private void btnHamburger_Click(object sender, RoutedEventArgs e)
+        {
+            splitView1.IsPaneOpen = !splitView1.IsPaneOpen;
+        }
+
+        private void iconListBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            if (polaListBoxItem.IsSelected)
+            {
+                Frame.Navigate(typeof(PolaGizi));
+            }
+            else if (kalkulatorListBoxItem.IsSelected)
+            {
+                Frame.Navigate(typeof(KalkulatorGizi));
+            }
+            else if (TentangListBoxItem.IsSelected)
+            {
+                Frame.Navigate(typeof(Tentang));
+
+            }
+            else if (BerandaListBoxItem.IsSelected)
+            {
+                Frame.Navigate(typeof(MainPage));
+            }
+
+        }
     }
 }

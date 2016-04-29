@@ -132,27 +132,31 @@ namespace GiziUntukAnak.GiziUntukAnak_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[9];
+            _typeNameTable = new string[11];
             _typeNameTable[0] = "GiziUntukAnak.KalkulatorGizi";
             _typeNameTable[1] = "Windows.UI.Xaml.Controls.Page";
             _typeNameTable[2] = "Windows.UI.Xaml.Controls.UserControl";
-            _typeNameTable[3] = "GiziUntukAnak.ListView.ListUmur2";
-            _typeNameTable[4] = "GiziUntukAnak.ListView.ListUmur5";
-            _typeNameTable[5] = "GiziUntukAnak.ListView.ListUmur9";
-            _typeNameTable[6] = "GiziUntukAnak.MainPage";
-            _typeNameTable[7] = "GiziUntukAnak.PolaGizi";
-            _typeNameTable[8] = "GiziUntukAnak.Tentang";
+            _typeNameTable[3] = "GiziUntukAnak.ListView.TabHeader";
+            _typeNameTable[4] = "String";
+            _typeNameTable[5] = "GiziUntukAnak.ListView.ListUmur2";
+            _typeNameTable[6] = "GiziUntukAnak.ListView.ListUmur5";
+            _typeNameTable[7] = "GiziUntukAnak.ListView.ListUmur9";
+            _typeNameTable[8] = "GiziUntukAnak.MainPage";
+            _typeNameTable[9] = "GiziUntukAnak.PolaGizi";
+            _typeNameTable[10] = "GiziUntukAnak.Tentang";
 
-            _typeTable = new global::System.Type[9];
+            _typeTable = new global::System.Type[11];
             _typeTable[0] = typeof(global::GiziUntukAnak.KalkulatorGizi);
             _typeTable[1] = typeof(global::Windows.UI.Xaml.Controls.Page);
             _typeTable[2] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
-            _typeTable[3] = typeof(global::GiziUntukAnak.ListView.ListUmur2);
-            _typeTable[4] = typeof(global::GiziUntukAnak.ListView.ListUmur5);
-            _typeTable[5] = typeof(global::GiziUntukAnak.ListView.ListUmur9);
-            _typeTable[6] = typeof(global::GiziUntukAnak.MainPage);
-            _typeTable[7] = typeof(global::GiziUntukAnak.PolaGizi);
-            _typeTable[8] = typeof(global::GiziUntukAnak.Tentang);
+            _typeTable[3] = typeof(global::GiziUntukAnak.ListView.TabHeader);
+            _typeTable[4] = typeof(global::System.String);
+            _typeTable[5] = typeof(global::GiziUntukAnak.ListView.ListUmur2);
+            _typeTable[6] = typeof(global::GiziUntukAnak.ListView.ListUmur5);
+            _typeTable[7] = typeof(global::GiziUntukAnak.ListView.ListUmur9);
+            _typeTable[8] = typeof(global::GiziUntukAnak.MainPage);
+            _typeTable[9] = typeof(global::GiziUntukAnak.PolaGizi);
+            _typeTable[10] = typeof(global::GiziUntukAnak.Tentang);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -188,12 +192,13 @@ namespace GiziUntukAnak.GiziUntukAnak_XamlTypeInfo
         }
 
         private object Activate_0_KalkulatorGizi() { return new global::GiziUntukAnak.KalkulatorGizi(); }
-        private object Activate_3_ListUmur2() { return new global::GiziUntukAnak.ListView.ListUmur2(); }
-        private object Activate_4_ListUmur5() { return new global::GiziUntukAnak.ListView.ListUmur5(); }
-        private object Activate_5_ListUmur9() { return new global::GiziUntukAnak.ListView.ListUmur9(); }
-        private object Activate_6_MainPage() { return new global::GiziUntukAnak.MainPage(); }
-        private object Activate_7_PolaGizi() { return new global::GiziUntukAnak.PolaGizi(); }
-        private object Activate_8_Tentang() { return new global::GiziUntukAnak.Tentang(); }
+        private object Activate_3_TabHeader() { return new global::GiziUntukAnak.ListView.TabHeader(); }
+        private object Activate_5_ListUmur2() { return new global::GiziUntukAnak.ListView.ListUmur2(); }
+        private object Activate_6_ListUmur5() { return new global::GiziUntukAnak.ListView.ListUmur5(); }
+        private object Activate_7_ListUmur9() { return new global::GiziUntukAnak.ListView.ListUmur9(); }
+        private object Activate_8_MainPage() { return new global::GiziUntukAnak.MainPage(); }
+        private object Activate_9_PolaGizi() { return new global::GiziUntukAnak.PolaGizi(); }
+        private object Activate_10_Tentang() { return new global::GiziUntukAnak.Tentang(); }
 
         private global::Windows.UI.Xaml.Markup.IXamlType CreateXamlType(int typeIndex)
         {
@@ -220,44 +225,57 @@ namespace GiziUntukAnak.GiziUntukAnak_XamlTypeInfo
                 xamlType = new global::GiziUntukAnak.GiziUntukAnak_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 3:   //  GiziUntukAnak.ListView.ListUmur2
-                userType = new global::GiziUntukAnak.GiziUntukAnak_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_3_ListUmur2;
+            case 3:   //  GiziUntukAnak.ListView.TabHeader
+                userType = new global::GiziUntukAnak.GiziUntukAnak_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.UserControl"));
+                userType.Activator = Activate_3_TabHeader;
+                userType.AddMemberName("Label");
+                userType.AddMemberName("Glyph");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 4:   //  GiziUntukAnak.ListView.ListUmur5
+            case 4:   //  String
+                xamlType = new global::GiziUntukAnak.GiziUntukAnak_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 5:   //  GiziUntukAnak.ListView.ListUmur2
                 userType = new global::GiziUntukAnak.GiziUntukAnak_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_4_ListUmur5;
+                userType.Activator = Activate_5_ListUmur2;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 5:   //  GiziUntukAnak.ListView.ListUmur9
+            case 6:   //  GiziUntukAnak.ListView.ListUmur5
                 userType = new global::GiziUntukAnak.GiziUntukAnak_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_5_ListUmur9;
+                userType.Activator = Activate_6_ListUmur5;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 6:   //  GiziUntukAnak.MainPage
+            case 7:   //  GiziUntukAnak.ListView.ListUmur9
                 userType = new global::GiziUntukAnak.GiziUntukAnak_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_6_MainPage;
+                userType.Activator = Activate_7_ListUmur9;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 7:   //  GiziUntukAnak.PolaGizi
+            case 8:   //  GiziUntukAnak.MainPage
                 userType = new global::GiziUntukAnak.GiziUntukAnak_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_7_PolaGizi;
+                userType.Activator = Activate_8_MainPage;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 8:   //  GiziUntukAnak.Tentang
+            case 9:   //  GiziUntukAnak.PolaGizi
                 userType = new global::GiziUntukAnak.GiziUntukAnak_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_8_Tentang;
+                userType.Activator = Activate_9_PolaGizi;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 10:   //  GiziUntukAnak.Tentang
+                userType = new global::GiziUntukAnak.GiziUntukAnak_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_10_Tentang;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
@@ -266,11 +284,49 @@ namespace GiziUntukAnak.GiziUntukAnak_XamlTypeInfo
         }
 
 
+        private object get_0_TabHeader_Label(object instance)
+        {
+            var that = (global::GiziUntukAnak.ListView.TabHeader)instance;
+            return that.Label;
+        }
+        private void set_0_TabHeader_Label(object instance, object Value)
+        {
+            var that = (global::GiziUntukAnak.ListView.TabHeader)instance;
+            that.Label = (global::System.String)Value;
+        }
+        private object get_1_TabHeader_Glyph(object instance)
+        {
+            var that = (global::GiziUntukAnak.ListView.TabHeader)instance;
+            return that.Glyph;
+        }
+        private void set_1_TabHeader_Glyph(object instance, object Value)
+        {
+            var that = (global::GiziUntukAnak.ListView.TabHeader)instance;
+            that.Glyph = (global::System.String)Value;
+        }
 
         private global::Windows.UI.Xaml.Markup.IXamlMember CreateXamlMember(string longMemberName)
         {
             global::GiziUntukAnak.GiziUntukAnak_XamlTypeInfo.XamlMember xamlMember = null;
-            // No Local Properties
+            global::GiziUntukAnak.GiziUntukAnak_XamlTypeInfo.XamlUserType userType;
+
+            switch (longMemberName)
+            {
+            case "GiziUntukAnak.ListView.TabHeader.Label":
+                userType = (global::GiziUntukAnak.GiziUntukAnak_XamlTypeInfo.XamlUserType)GetXamlTypeByName("GiziUntukAnak.ListView.TabHeader");
+                xamlMember = new global::GiziUntukAnak.GiziUntukAnak_XamlTypeInfo.XamlMember(this, "Label", "String");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_0_TabHeader_Label;
+                xamlMember.Setter = set_0_TabHeader_Label;
+                break;
+            case "GiziUntukAnak.ListView.TabHeader.Glyph":
+                userType = (global::GiziUntukAnak.GiziUntukAnak_XamlTypeInfo.XamlUserType)GetXamlTypeByName("GiziUntukAnak.ListView.TabHeader");
+                xamlMember = new global::GiziUntukAnak.GiziUntukAnak_XamlTypeInfo.XamlMember(this, "Glyph", "String");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_1_TabHeader_Glyph;
+                xamlMember.Setter = set_1_TabHeader_Glyph;
+                break;
+            }
             return xamlMember;
         }
     }

@@ -18,7 +18,7 @@
         <RelativePanel  Background="Green">
             <StackPanel Orientation="Horizontal">
             <Button x:ConnectionId='7' Name="btnHamburger" FontFamily="Segoe MDL2 Assets" Content="&#xE700;" FontSize="36"                            HorizontalAlignment="Stretch" VerticalAlignment="Bottom"/>
-                <TextBlock Text="Tentang" Foreground="Azure"  VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="20"></TextBlock>
+                <TextBlock Text="Tentang" Foreground="Azure"  VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="18"></TextBlock>
             </StackPanel>
         </RelativePanel>
         
@@ -64,15 +64,11 @@
             </SplitView.Pane>
             <StackPanel >
                 <RichTextBlock>
-                    <Paragraph FontSize="17">
-                        <Bold>Tentang Aplikasi</Bold>
-                    </Paragraph>
-                    
-                    <Paragraph>
+                    <Paragraph FontSize="12">
                         Gizi Untuk Anak merupakan aplikasi untuk mengetahui permasalahan gizi yang sering dihadapi anak serta solusi dari kebutuhan zat gizi sehingga sesuai dengan prinsip - prinsip gizi seimbang.
                     </Paragraph>
                     <Paragraph></Paragraph>
-                    <Paragraph>
+                    <Paragraph FontSize="12">
                         Copyright by : Herdi Zulfiqri
                     </Paragraph>
 
