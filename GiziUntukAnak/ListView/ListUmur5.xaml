@@ -68,21 +68,112 @@
                     <PivotItem.Header>
                         <local:TabHeader Label="Permasalahan" Glyph="&#xE716;"  Width="78" />
                     </PivotItem.Header>
-                    <TextBlock>Content 1</TextBlock>
+
+                    <!--Tab Pivot Permasalahan-->
+                    <StackPanel>
+                        <ScrollViewer Height="410" VerticalScrollBarVisibility="Hidden">
+                            <RichTextBlock>
+                                <Paragraph FontSize="12" TextAlignment="Justify">
+                                    <LineBreak/>
+                                    <Bold>Gizi Seimbang Umur 3-5 Tahun</Bold>
+                                    <LineBreak/>
+                                    Pertumbuhan di usia balita akan menentukan perkembangan fisik dan mental serta keberhasilan di usia selanjutnya.
+                                    <LineBreak/>
+                                    <Bold>A. Kondisi Khas dan Permasalahan</Bold>
+                                    <LineBreak/>
+                                    Sesuai dengan tahap perkembangannya, di usia ini anak mulai ingin mandiri. Dalam hal makanan pun anak usia ini bersifat
+                                    sebagai konsumen aktif. Artinya mereka dapat memilih dan menentukan sendiri makanan yang ingin dikonsumsi. Tak heran
+                                    baik di rentang usia ini kerap terjadi, anak menolak makanan yang tidak disukai dan hanya mau mengonsumsi makanan
+                                    favoritnya. Oleh sebab itu perlu diperkenalkan beraneka ragam makanan.
+                                    
+                                    Beberapa Masalah yang umum terjadi pada rentang usia 3 - 5 tahun:
+                                    <LineBreak/>
+                                    <Bold>a. Tidak suka sayuran</Bold>
+                                    <LineBreak/>
+                                    Kebanyakan anak tidak suka sayur. Sebagian bahkan tidak suka buah. Hal ini dapat merugikan kesehatannya, terutama dapat
+                                    mengakibatkan kekurangan vitamin A, vitamin C, dan serat. Untuk itu harus diupayakan agar setiap hidangan sayur beraneka
+                                    ragam dan berpenampilan menarik, misal, sayurdibuat dalam bentuk rempeyek sayur, omelet sayuran, nasi goreng sayur, dan lain-lain.
+                                    <LineBreak/>
+                                    <Bold>b. Pilih-pilih makanan</Bold>
+                                    <LineBreak/>
+                                    Kebiasaan pilih-pilih makanan dilakukan karena meniru perilaku orang dewasa(orang tua) dan teman sebaya di sekitarnya. Selain itu,
+                                    anak sendiri enggan mencoba hal-hal baru, termasuk makanan. Anak sebaiknya diperkenalkan dengan  makanan yang beraneka ragam
+                                    sejak dini dan dilakukan secara terus-menerus.
+                                    <LineBreak/>
+                                    <Bold>c. Menyukai junk food</Bold>
+                                    <LineBreak/>
+                                    Junk food adalah jajanan yang tak ber-Gizi Seimbang, yang banyak disukai oleh anak dan sebagian orang dewasa. Ciri makanan
+                                    ini adalah berlemak dan berkarbohidrat tinggi, rendah/tanpa serat, mengandung bahan pemanis dan perasa buatan,penambah rasa dan
+                                    kadang-kadang mengandung bahan pengawet bukan untuk makanan. Contoh: makanan jajanan yang terlalu manis, terlalu asin, terlalu gurih dan terlalu berminyak.
+                                    
+                                </Paragraph>
+                            </RichTextBlock>
+                        </ScrollViewer>
+                    </StackPanel>
                 </PivotItem>
 
                 <PivotItem>
                     <PivotItem.Header>
                         <local:TabHeader Label="Kebutuhan" Glyph="&#xE8FB;" />
                     </PivotItem.Header>
-                    <TextBlock>Content 2</TextBlock>
+                    
+                    <!--Tab Pivot Kebutuhan-->
+                    <StackPanel>
+                        <ScrollViewer Height="410" VerticalScrollBarVisibility="Hidden">
+                            <RichTextBlock>
+                                <Paragraph FontSize="12" TextAlignment="Justify">
+                                    <LineBreak/>
+                                    <Bold>Kebutuhan Zat Gizi</Bold>
+                                    <LineBreak/>
+                                    Menurut Angka Kecukupan gizi(AKG) rata-rata orang yang dianjurkan (per orang/hari), kebutuhan energi anak usia 1-3 tahun
+                                    sebesar 1000 kkal dan kebutuhan protein 25g. Adapun kebutuhan energi anak usia 4-6 tahun sebesar 1550 kkal dan kebutuhan
+                                    protein 39g. Akal halnya kebutuhan air anak usia 1-6 tahun sekitar 1,1-1,4 liter atau 5-7 gelas per hari. Makin bertambah umur,
+                                    makin bertambah jumlah air yang dibutuhkan.
+                                    <LineBreak/>
+                                    Berikut Tabel AKG zat gizi mikro penting untuk anak usia 2-5 tahun.
+                                    <LineBreak/>
+                                    <InlineUIContainer>
+                                        <Image Source="ms-appx:///Assets/TabelGizi3.png" Height="140" Width="250" HorizontalAlignment="Center" />
+                                    </InlineUIContainer>
+                                    <LineBreak/>
+                                    
+
+                                </Paragraph>
+                            </RichTextBlock>
+                        </ScrollViewer>
+                    </StackPanel>
                 </PivotItem>
 
                 <PivotItem>
                     <PivotItem.Header>
                         <local:TabHeader Label="Prinsip Gizi" Glyph="&#xE76E;"/>
                     </PivotItem.Header>
-                    <TextBlock>Content 3</TextBlock>
+                    <!--Tab Pivot Prinsip-->
+                    <StackPanel>
+                        <ScrollViewer Height="410" VerticalScrollBarVisibility="Hidden">
+
+                            <RichTextBlock>
+                                <Paragraph FontSize="12" TextAlignment="Justify">
+                                    <LineBreak/>
+                                    <Bold>Prinsip Gizi Seimbang</Bold>
+                                    <LineBreak/>
+                                    Makanan sebagai sumber zat gizi harus diberikan bervariasi/beragam. Dari segi jumlah, hidangan sehari untuk anak usia 4-5 tahun lebih banyak dibandingkan 
+                                    yang berusia 2-3 tahun. Ini karena kebutuhan energi mereka berbeda.
+                                    <LineBreak/>
+                                    <Bold>1. Variasi Makanan</Bold>
+                                    <LineBreak/>
+                                    Setiap makanan yang dihidangkan untuk anak setiap hari harus memenuhi kebutuhan akan makanan pokok, lauk pauk, sayur dan buah-buahan.
+                                    Agar memenuhi prinsip Gizi Seimbang.
+                                    <LineBreak/>
+                                    <Bold>2. Pola Hidup Bersih</Bold>
+                                    <LineBreak/>
+                                    Kebiasaan pola hidup bersih perlu ditanamkan terhadap anak, seperti: mencuci tangan hingga bersih dengan menggunakan sabun dan membilasnya di pancuran
+                                    atau air mengalir. Cuci tangan harus dilakukan sebelum dan setelah makan atau setelah bermain. Selain itu anak juga
+                                    diharuskan menjaga kebersihan gigi dan mulut serta kebersihan badan.
+                                </Paragraph>
+                            </RichTextBlock>
+                        </ScrollViewer>
+                    </StackPanel>
                 </PivotItem>
 
             </Pivot>

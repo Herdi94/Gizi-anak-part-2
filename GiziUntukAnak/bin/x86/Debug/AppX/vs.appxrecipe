@@ -9,7 +9,7 @@
     <SolutionConfiguration>Debug|x86</SolutionConfiguration>
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>bcafc544-76fd-4490-8773-e00cb7ff0921</PackageIdentityName>
-    <IntermediateOutputPath>C:\Users\Herdi\Documents\Visual Studio 2015\Projects\UWP\GiziUntukAnak\GiziUntukAnak\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\Herdi\Documents\GitHub\GiziUntukAnak\GiziUntukAnak\obj\x86\Debug\</IntermediateOutputPath>
     <RegisteredManifestChecksum>B86A9DD01EB01B2B32A0B1EE11C6811B90810FBA712DD259AE680F3C1BCA61B0</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>bcafc544-76fd-4490-8773-e00cb7ff0921_1.0.0.0_x86__rd1k8fvw8gjkr</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>bcafc544-76fd-4490-8773-e00cb7ff0921_rd1k8fvw8gjkr!App</RegisteredUserModeAppID>
@@ -19,16 +19,16 @@
     <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\Herdi\Documents\Visual Studio 2015\Projects\UWP\GiziUntukAnak\GiziUntukAnak\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\Herdi\Documents\GitHub\GiziUntukAnak\GiziUntukAnak\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-04-28T08:49:49.577</Modified>
+      <Modified>2016-05-01T00:14:41.394</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\Herdi\Documents\Visual Studio 2015\Projects\UWP\GiziUntukAnak\GiziUntukAnak\bin\x86\Debug\GiziUntukAnak.exe">
+    <AppxPackagedFile Include="C:\Users\Herdi\Documents\GitHub\GiziUntukAnak\GiziUntukAnak\bin\x86\Debug\GiziUntukAnak.exe">
       <PackagePath>entrypoint\GiziUntukAnak.exe</PackagePath>
-      <Modified>2016-04-28T08:49:47.495</Modified>
+      <Modified>2016-05-01T00:14:40.285</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Herdi\.nuget\packages\Microsoft.ApplicationInsights\1.0.0\lib\portable-win81+wpa81\Microsoft.ApplicationInsights.dll">
       <PackagePath>Microsoft.ApplicationInsights.dll</PackagePath>
@@ -454,80 +454,92 @@
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
       <Modified>2015-07-22T16:11:12.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Herdi\Documents\Visual Studio 2015\Projects\UWP\GiziUntukAnak\GiziUntukAnak\ApplicationInsights.config">
+    <AppxPackagedFile Include="C:\Users\Herdi\Documents\GitHub\GiziUntukAnak\GiziUntukAnak\ApplicationInsights.config">
       <PackagePath>ApplicationInsights.config</PackagePath>
-      <Modified>2016-04-27T03:46:01.368</Modified>
+      <Modified>2016-04-28T23:41:36.501</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Herdi\Documents\Visual Studio 2015\Projects\UWP\GiziUntukAnak\GiziUntukAnak\Assets\anakUmur2.png">
+    <AppxPackagedFile Include="C:\Users\Herdi\Documents\GitHub\GiziUntukAnak\GiziUntukAnak\Assets\anakUmur2.png">
       <PackagePath>Assets\anakUmur2.png</PackagePath>
-      <Modified>2016-04-28T08:25:36.517</Modified>
+      <Modified>2016-04-28T23:41:36.504</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Herdi\Documents\Visual Studio 2015\Projects\UWP\GiziUntukAnak\GiziUntukAnak\Assets\anakUmur5.png">
+    <AppxPackagedFile Include="C:\Users\Herdi\Documents\GitHub\GiziUntukAnak\GiziUntukAnak\Assets\anakUmur5.png">
       <PackagePath>Assets\anakUmur5.png</PackagePath>
-      <Modified>2016-04-28T08:25:40.511</Modified>
+      <Modified>2016-04-28T23:41:36.524</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Herdi\Documents\Visual Studio 2015\Projects\UWP\GiziUntukAnak\GiziUntukAnak\Assets\anakUmur9.png">
+    <AppxPackagedFile Include="C:\Users\Herdi\Documents\GitHub\GiziUntukAnak\GiziUntukAnak\Assets\anakUmur9.png">
       <PackagePath>Assets\anakUmur9.png</PackagePath>
-      <Modified>2016-04-28T08:25:45.133</Modified>
+      <Modified>2016-04-28T23:41:36.524</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Herdi\Documents\Visual Studio 2015\Projects\UWP\GiziUntukAnak\GiziUntukAnak\Assets\SplashScreen.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\Herdi\Documents\GitHub\GiziUntukAnak\GiziUntukAnak\Assets\SplashScreen.scale-150.png">
       <PackagePath>Assets\SplashScreen.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-04-28T03:51:38.359</Modified>
+      <Modified>2016-04-28T23:41:36.543</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Herdi\Documents\Visual Studio 2015\Projects\UWP\GiziUntukAnak\GiziUntukAnak\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Herdi\Documents\GitHub\GiziUntukAnak\GiziUntukAnak\Assets\TabelGizi.png">
+      <PackagePath>Assets\TabelGizi.png</PackagePath>
+      <Modified>2016-04-30T08:08:58.447</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Herdi\Documents\GitHub\GiziUntukAnak\GiziUntukAnak\Assets\TabelGizi2.png">
+      <PackagePath>Assets\TabelGizi2.png</PackagePath>
+      <Modified>2016-04-30T14:59:28.038</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Herdi\Documents\GitHub\GiziUntukAnak\GiziUntukAnak\Assets\TabelGizi3.png">
+      <PackagePath>Assets\TabelGizi3.png</PackagePath>
+      <Modified>2016-04-30T14:59:34.062</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Herdi\Documents\GitHub\GiziUntukAnak\GiziUntukAnak\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
-      <Modified>2015-07-22T11:25:18.000</Modified>
+      <Modified>2016-04-28T23:41:36.524</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Herdi\Documents\Visual Studio 2015\Projects\UWP\GiziUntukAnak\GiziUntukAnak\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Herdi\Documents\GitHub\GiziUntukAnak\GiziUntukAnak\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-07-22T11:25:18.000</Modified>
+      <Modified>2016-04-28T23:41:36.546</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Herdi\Documents\Visual Studio 2015\Projects\UWP\GiziUntukAnak\GiziUntukAnak\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Herdi\Documents\GitHub\GiziUntukAnak\GiziUntukAnak\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-07-22T11:25:18.000</Modified>
+      <Modified>2016-04-28T23:41:36.548</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Herdi\Documents\Visual Studio 2015\Projects\UWP\GiziUntukAnak\GiziUntukAnak\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Herdi\Documents\GitHub\GiziUntukAnak\GiziUntukAnak\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-07-22T11:25:18.000</Modified>
+      <Modified>2016-04-28T23:41:36.550</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Herdi\Documents\Visual Studio 2015\Projects\UWP\GiziUntukAnak\GiziUntukAnak\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\Herdi\Documents\GitHub\GiziUntukAnak\GiziUntukAnak\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-07-22T11:25:18.000</Modified>
+      <Modified>2016-04-28T23:41:36.551</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Herdi\Documents\Visual Studio 2015\Projects\UWP\GiziUntukAnak\GiziUntukAnak\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\Herdi\Documents\GitHub\GiziUntukAnak\GiziUntukAnak\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-07-22T11:25:18.000</Modified>
+      <Modified>2016-04-28T23:41:36.553</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Herdi\Documents\Visual Studio 2015\Projects\UWP\GiziUntukAnak\GiziUntukAnak\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Herdi\Documents\GitHub\GiziUntukAnak\GiziUntukAnak\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-07-22T11:25:18.000</Modified>
+      <Modified>2016-04-28T23:41:36.554</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Herdi\Documents\Visual Studio 2015\Projects\UWP\GiziUntukAnak\GiziUntukAnak\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\Herdi\Documents\GitHub\GiziUntukAnak\GiziUntukAnak\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
-      <Modified>2016-04-27T03:45:17.252</Modified>
+      <Modified>2016-04-28T23:41:46.114</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Herdi\Documents\Visual Studio 2015\Projects\UWP\GiziUntukAnak\GiziUntukAnak\bin\x86\Debug\GiziUntukAnak.xr.xml">
+    <AppxPackagedFile Include="C:\Users\Herdi\Documents\GitHub\GiziUntukAnak\GiziUntukAnak\bin\x86\Debug\GiziUntukAnak.xr.xml">
       <PackagePath>GiziUntukAnak.xr.xml</PackagePath>
-      <Modified>2016-04-28T08:45:26.687</Modified>
+      <Modified>2016-04-30T08:14:47.894</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
       <Modified>2016-04-20T08:30:18.183</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Herdi\Documents\Visual Studio 2015\Projects\UWP\GiziUntukAnak\GiziUntukAnak\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\Herdi\Documents\GitHub\GiziUntukAnak\GiziUntukAnak\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2016-04-28T08:49:48.596</Modified>
+      <Modified>2016-05-01T00:12:29.169</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Herdi\Documents\Visual Studio 2015\Projects\UWP\GiziUntukAnak\GiziUntukAnak\bin\x86\Debug\Core\GiziUntukAnak.exe">
+    <AppxPackagedFile Include="C:\Users\Herdi\Documents\GitHub\GiziUntukAnak\GiziUntukAnak\bin\x86\Debug\Core\GiziUntukAnak.exe">
       <PackagePath>GiziUntukAnak.exe</PackagePath>
-      <Modified>2016-04-28T08:49:49.572</Modified>
+      <Modified>2016-05-01T00:14:41.387</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

@@ -66,31 +66,30 @@
             </SplitView.Pane>
 
             <!--List View-->
-            <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" Width="285">
-                <Grid.RowDefinitions>
-                    <RowDefinition Height="*"/>
-                    <RowDefinition Height="100"/>
-                </Grid.RowDefinitions>
-
-                <GridView ItemsSource="{x:Bind gizi2}" IsItemClickEnabled="True" ItemClick="GridView_ItemClick"
-                  >
+                
+            <GridView ItemsSource="{x:Bind gizi2}" IsItemClickEnabled="True" ItemClick="GridView_ItemClick">
+                
                     <GridView.ItemTemplate>
                         <DataTemplate  x:DataType="data:Gizi">
-                            <StackPanel Orientation="Horizontal"  HorizontalAlignment="Center">
-                                <Image  Width="120" Source="{x:Bind Image }"  HorizontalAlignment="Center"></Image>
-                                <StackPanel Margin="20,20,0,0">
-                                    <TextBlock FontSize="18" Text="{x:Bind Judul}" HorizontalAlignment="Right"></TextBlock>
-                                    <TextBlock FontSize="10" Text="{x:Bind Sub }" HorizontalAlignment="Right"></TextBlock>
-                                </StackPanel>
-                            </StackPanel>
 
-                        </DataTemplate>
+                        <StackPanel Orientation="Horizontal"  HorizontalAlignment="Center">
+                            
+                                <Image  Width="120" Source="{x:Bind Image}"  HorizontalAlignment="Center"></Image>
+                                <StackPanel Margin="20,20,0,0">
+                                <TextBlock FontSize="18" Text="{x:Bind Judul}" HorizontalAlignment="Right" ></TextBlock>
+                                <TextBlock FontSize="10" Text="{x:Bind Sub }" HorizontalAlignment="Right" ></TextBlock>
+          
+                            </StackPanel>
+                            
+                        </StackPanel>
+ 
+                    </DataTemplate>
 
                     </GridView.ItemTemplate>
                 </GridView>
-                
-            </Grid>
-
+               
+            
+            
         </SplitView>
 
   

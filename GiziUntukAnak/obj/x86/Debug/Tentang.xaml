@@ -62,18 +62,27 @@
 
                 </ListBox>
             </SplitView.Pane>
-            <StackPanel >
+
+           
+                
+<!-- RichTextBlock can copy the text-->
+            <StackPanel>
                 <RichTextBlock>
-                    <Paragraph FontSize="12">
+                    <Paragraph FontSize="12" TextAlignment="Justify">
+                        <LineBreak/>
                         Gizi Untuk Anak merupakan aplikasi untuk mengetahui permasalahan gizi yang sering dihadapi anak serta solusi dari kebutuhan zat gizi sehingga sesuai dengan prinsip - prinsip gizi seimbang.
+                        <LineBreak/>
+                        <LineBreak/>
+                        <Bold>Copyright by : Herdi Zulfiqri</Bold>
+
                     </Paragraph>
-                    <Paragraph></Paragraph>
-                    <Paragraph FontSize="12">
-                        Copyright by : Herdi Zulfiqri
-                    </Paragraph>
+                   
+                      
+                    
 
                 </RichTextBlock>
-            </StackPanel>
+            
+                </StackPanel>
         </SplitView>
 
 

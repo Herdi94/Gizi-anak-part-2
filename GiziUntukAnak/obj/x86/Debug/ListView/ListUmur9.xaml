@@ -69,21 +69,104 @@
                     <PivotItem.Header>
                         <local:TabHeader Label="Permasalahan" Glyph="&#xE716;"  Width="78" />
                     </PivotItem.Header>
-                    <TextBlock>Content 1</TextBlock>
+                    <!--Tab Pivot Permasalahan-->
+                    <StackPanel>
+                        <ScrollViewer Height="410" VerticalScrollBarVisibility="Hidden">
+
+                            <RichTextBlock>
+                                <Paragraph FontSize="12" TextAlignment="Justify">
+                                    <LineBreak/>
+                                    <Bold>Gizi Seimbang Umur 6-9 Tahun</Bold>
+                                    <LineBreak/>
+                                    Adanya perubahan komposisi tubuh dan aktivitas fisik anak yang semakin banyak di luar rumah menyebabkan orangtua perlu 
+                                    memerhatikan asupan Gizi Seimbang pada anak.
+                                    <LineBreak/>
+                                    <Bold>Kondisi Khas dan Permasalahan</Bold>
+                                    <LineBreak/>
+                                    
+                                    Kecepatan pertumbuhan anak di rentang usia ini merupakan kecepatan genetis masing-masing anak, yang juga dipengaruhi
+                                    faktor lingkungan, terutama makanan. Hasil dari perbedaan proses pertumbuhan mengakibatkan ada anak yang berbadan pendek
+                                    dan ada yang tinggi. Komposisi tubuh anak setelah umur 5 tahun mulai berubah. Perbedaan komposisi tubuh anak perempuan
+                                    dengan anak laki-laki mulai tampak berbeda. Tubuh anak perempuan lebih banyak lemak, sedangkan tubuh anak laki-lakilebih banyak otot.
+                                    <LineBreak/>
+                                    Disisi lain, sebagian besar anak pada usia ini banyak dimanfaatkan dengan aktivitas di luar rumah, yakni sekitar 3-6 jam 
+                                    disekolah, beberapa jam untuk bermain, berolahraga dan sebagainya. Waktu yang lebih banyak digunakan bersama temannya mempengaruhi
+                                    jadwal makanan anak sehingga muncul pola makan salah yang masih dibawa di usia ini, misal: anak lebih suka jajan,
+                                    makanan kurang sehat, suka makan dan minuman yang manis dan sebagainya. Sehingga berdampak terhadap Berat Badan (BB) yang
+                                    rendah karena kurang gizi dan sering sakit.
+                                </Paragraph>
+                            </RichTextBlock>
+                        </ScrollViewer>
+                    </StackPanel>
                 </PivotItem>
 
                 <PivotItem>
                     <PivotItem.Header>
                         <local:TabHeader Label="Kebutuhan" Glyph="&#xE8FB;" />
                     </PivotItem.Header>
-                    <TextBlock>Content 2</TextBlock>
+                    <!--Tab Pivot Kebutuhan-->
+                    <StackPanel>
+                        <ScrollViewer Height="410" VerticalScrollBarVisibility="Hidden">
+
+                            <RichTextBlock>
+                                <Paragraph FontSize="12" TextAlignment="Justify">
+                                    <LineBreak/>
+                                    <Bold>Kebutuhan Zat Gizi</Bold>
+                                    <LineBreak/>
+                                    Menurut Angka Kecukupan Gizi(AKG) rata-rata yang dianjurkan (per orang/hari), kebutuhan energi dan protein anak umur 6 tahun
+                                    berturut-turut sebesar 1550 kkal dan 39 g. Memasuki umur 7 sampai 9 tahun, kebutuhan energi dan proteinnya meningkat menjadi 
+                                    masing-masing sebesar 1800 kkal dan 45 g. Kemudian pada umur 10 tahun, kebutuhan energi dan proteinnya meningkat lagi menjadi masing-masing sebesar 2050 kkal dan 40 g.
+                                    AKG ini ditetapkan unutk anak usia sekolah dengan rata-rata Tinggi Badan(TB) 120 cm dan Berat Badan(BB) 25 kg.
+                                    Bagi anak yang memiliki ukuran tubuh yang jauh berbeda dan kegiatan fisik berat(suka olahraga ber-keringat), maka
+                                    perlu penyusuaian dengan konsultasi kepada ahlinya.
+                                    <LineBreak/>
+                                    Berikut Tabel AKG zat-zat gizi mikro penting yang dianjurkan untuk anak 6-9 tahun.
+                                    <LineBreak/>
+                                    <InlineUIContainer>
+                                        <Image Source="ms-appx:///Assets/TabelGizi2.png" Height="140" Width="250" HorizontalAlignment="Center" />
+                                    </InlineUIContainer>
+
+                                </Paragraph>
+                            </RichTextBlock>
+                        </ScrollViewer>
+                    </StackPanel>
+
                 </PivotItem>
 
                 <PivotItem>
                     <PivotItem.Header>
                         <local:TabHeader Label="Prinsip Gizi" Glyph="&#xE76E;"/>
                     </PivotItem.Header>
-                    <TextBlock>Content 3</TextBlock>
+                    <!--Tab Pivot Prinsip-->
+                    <StackPanel>
+                        <ScrollViewer Height="410" VerticalScrollBarVisibility="Hidden">
+
+                            <RichTextBlock>
+                                <Paragraph FontSize="12" TextAlignment="Justify">
+                                    <LineBreak/>
+                                    <Bold>Prinsip Gizi Seimbang</Bold>
+                                    <LineBreak/>
+                                    <Bold>1. Variasi Makanan</Bold>
+                                    <LineBreak/>
+                                    Gizi Seimbang pada anak usia ini dipenuhi setiap hari dengan makanan yang beraneka ragam, baik pada saat sarapan, makan siang dan makan malam.
+                                    Biasakan sarapan yang menyumbang seperempat kebutuhan gizi, terutama energi. Jenisnya bisa beragam, antara lain nasi dan
+                                    lauk pauk atau bahan makanan pengganti lainnya dengan kandungan zat gizi yang baik.
+                                    Biasakan anak membawa bekal makanan dan minuman agar tidak jajan di sekolah. Berikan anak air minum minimal 2 liter sehari.
+                                    Untuk mendidik agar anak menyukai sayur, maka makanan bekal dapat berupa buah atau makanan mengandung sayur, misal: puding buah,
+                                    pastel, lumpia, arem-arem isi sayuran dan daging.
+                                    <LineBreak/>
+                                    <Bold>2. Pola Hidup Bersih</Bold>
+                                    <LineBreak/>
+                                    Meski sejak dini anak sudah dibiasakan menjalankan pola hidup bersih, tetapi di usia ini anak masih tetap membutuhkan bimbingan
+                                    dan pendampingan dari orangtua. Oleh karena itu, ingatkan anak untuk selalu menjaga kebersihan tubuh dan lingkungan, seperti menggosok gigi,mandi,mencuci tangan dengan sabun dan membuang sampah pada tempatnya agar terhindar dari serangan berbagai penyakit infeksi.
+
+
+                                </Paragraph>
+                            </RichTextBlock>
+                        </ScrollViewer>
+                    </StackPanel>
+
+
                 </PivotItem>
 
             </Pivot>

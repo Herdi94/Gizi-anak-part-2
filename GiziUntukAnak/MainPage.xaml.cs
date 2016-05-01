@@ -1,4 +1,4 @@
-﻿
+﻿using Windows.UI.Core;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -13,6 +13,7 @@ using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
+using System.Diagnostics;
 
 // The Blank Page item template is documented at http://go.microsoft.com/fwlink/?LinkId=402352&clcid=0x409
 
@@ -27,8 +28,11 @@ namespace GiziUntukAnak
         public MainPage()
         {
             this.InitializeComponent();
-           
+         
+
         }
+
+     
 
         private void iconListBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
@@ -56,5 +60,9 @@ namespace GiziUntukAnak
         {
             splitView1.IsPaneOpen = !splitView1.IsPaneOpen;
         }
+
+
+        
+
     }
 }

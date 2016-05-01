@@ -66,31 +66,30 @@
             </SplitView.Pane>
 
             <!--List View-->
-            <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" Width="285">
-                <Grid.RowDefinitions>
-                    <RowDefinition Height="*"/>
-                    <RowDefinition Height="100"/>
-                </Grid.RowDefinitions>
-
-                <GridView x:ConnectionId='8'                              IsItemClickEnabled="True"                               
-                  >
+                
+            <GridView x:ConnectionId='8'                              IsItemClickEnabled="True"                               >
+                
                     <GridView.ItemTemplate>
                         <DataTemplate                        >
-                            <StackPanel x:ConnectionId='9' Orientation="Horizontal"  HorizontalAlignment="Center">
-                                <Image x:ConnectionId='10'  Width="120"                           HorizontalAlignment="Center"></Image>
-                                <StackPanel Margin="20,20,0,0">
-                                    <TextBlock x:ConnectionId='11' FontSize="18"                       HorizontalAlignment="Right"></TextBlock>
-                                    <TextBlock x:ConnectionId='12' FontSize="10"                      HorizontalAlignment="Right"></TextBlock>
-                                </StackPanel>
-                            </StackPanel>
 
-                        </DataTemplate>
+                        <StackPanel x:ConnectionId='9' Orientation="Horizontal"  HorizontalAlignment="Center">
+                            
+                                <Image x:ConnectionId='10'  Width="120"                          HorizontalAlignment="Center"></Image>
+                                <StackPanel Margin="20,20,0,0">
+                                <TextBlock x:ConnectionId='11' FontSize="18"                       HorizontalAlignment="Right" ></TextBlock>
+                                <TextBlock x:ConnectionId='12' FontSize="10"                      HorizontalAlignment="Right" ></TextBlock>
+          
+                            </StackPanel>
+                            
+                        </StackPanel>
+ 
+                    </DataTemplate>
 
                     </GridView.ItemTemplate>
                 </GridView>
-                
-            </Grid>
-
+               
+            
+            
         </SplitView>
 
   

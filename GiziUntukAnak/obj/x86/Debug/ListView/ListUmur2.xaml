@@ -68,21 +68,199 @@
                     <PivotItem.Header>
                         <local:TabHeader Label="Permasalahan" Glyph="&#xE716;"  Width="78" />
                     </PivotItem.Header>
-                    <TextBlock>Content 1</TextBlock>
+
+<!--Tab Pivot Permasalahan-->
+                        <StackPanel>
+                            <ScrollViewer Height="410" VerticalScrollBarVisibility="Hidden">
+                                <RichTextBlock>
+                                    <Paragraph FontSize="12" TextAlignment="Justify">
+                                        <LineBreak/>
+                                    <Bold>Gizi Seimbang Umur 0-2 Tahun</Bold>
+                                    <LineBreak/>
+                                    Air susu ibu(ASI) satu-satunya makanan yang mengandung semua zat gizi untuk pertumbuhan bayi usia 0 - 6 bulan. Dengan 
+                                    demikian ASI ekslusif yakni ASI saja merupakan makanan yang ber-Gizi Seimbang. Bayi usia di atas 6 bulan memerlukan
+                                    makanan pendamping ASI(MP-ASI).
+                                    </Paragraph>
+
+
+                                    <Paragraph FontSize="12" TextAlignment="Justify">
+                                    <Bold>Kondisi Khas dan Permasalahan</Bold>
+                                        <LineBreak/>
+                                        Pada usia 2 tahun pertumbuhan sel-sel otak sudah mencapai lebih dari 80 persen. Bila dalam periode ini anak mengalami 
+                                    kekurangan gizi yang dibutuhkan otak, perkembangan otak dan kecerdasannya akan terpengaruh. Bila pola pemberian ASI tidak 
+                                    benar atau MP-ASI tidak mencukupi kebutuhan zat gizi yang diperlukan tubuh, bayi akan mengalami gangguan pertumbuhan. 
+                                    Beberapa Masalah yang umum terjadi pada rentang usia 0 - 2 tahun:
+                                    </Paragraph>
+
+
+
+                                    <Paragraph FontSize="12" TextAlignment="Justify">
+                                        <Bold>a. Bayi sering bangun malam</Bold>
+                                        <LineBreak/>
+                                        Seringnya bayi bangun malam karena tubuh bayi membutuhkan pemenuhan makanan. ini justru akan membantu ibu dalam pemberian
+                                    ASI ekslusif, karena merangsang hormon prolaktin dan oktositosin yang berfungsi untuk memproduksi dan melancarkan 
+                                    pengeluaran ASI. Bayi usia 1 tahun menghabiskan waktu tidur antara 14 dan 16 jam. Bahkan, bayi yang baru lahir bisa 
+                                    menghabiskan waktu 16 - 18 jam per hari.
+
+                                    </Paragraph>
+
+
+                                    <Paragraph FontSize="12" TextAlignment="Justify">
+                                        <Bold>b. Bayi sering menangis bukan berarti ASI tidak cukup</Bold>
+                                        <LineBreak/>
+                                        Salah satu kegagalan ASI ekslusif adalah ibu menganggap bayi menangis disebabkan bayi lapar karena ASI tidak cukup.
+                                    Sehingga kepada bayi perlu diberi tambahan makanan lain. Anggapan ini tidak benar karena sampai umur 6 bulan, kebutuhan
+                                    bayi sudah cukup dipenuhi dengan ASI saja. Menangis merupakan reaksi emosi bayi seperti: rasa haus, lapar, kepanasan,
+                                    popok basah dan sebagainya.
+                                    </Paragraph>
+
+
+
+                                <Paragraph FontSize="12" TextAlignment="Justify">
+                                    <Bold>c. ASI sedikit/kurang</Bold>
+                                    <LineBreak/>
+                                    Seperti dijelaskan diatas, produksi dan pengeluaran ASI sangat bergantung pada rangsangan di puting susu (isapan) oleh 
+                                    bayi. Isapan bayi akan merangsang pengeluaran hormon prolaktin dan oksitosin. hormon prolaktin bertanggung jawab terhadap
+                                    produksi ASI sedangkan hormon oksitosin merupakan hormon yang memperlancar pengeluaran ASI.
+
+                                </Paragraph>
+
+                            </RichTextBlock>
+                            </ScrollViewer>
+                        </StackPanel>
+                   
                 </PivotItem>
 
                 <PivotItem>
                     <PivotItem.Header>
                         <local:TabHeader Label="Kebutuhan" Glyph="&#xE8FB;" />
                     </PivotItem.Header>
-                    <TextBlock>Content 2</TextBlock>
+
+                    <!--Tab Pivot Kebutuhan-->
+                    <StackPanel>
+                        <ScrollViewer Height="410" VerticalScrollBarVisibility="Hidden">
+                            <RichTextBlock>
+                                <Paragraph FontSize="12" TextAlignment="Justify"> 
+                                 <LineBreak/>
+                                    <Bold>Kebutuhan Zat Gizi</Bold>
+                                    <LineBreak/>
+                                    Menurut Angka kecukupan Gizi(AKG) rata-rata yang dianjurkan(per orang/hari), kebutuhan energi anak usia 7 - 11 bulan sebesar
+                                    650 kkal(tambah 100 kkal dari kebutuhan energi anak usia 0-6 bulan) dan kebutuhan protein 16 g/kg BB(tambah 4g dari 
+                                    kebutuhan protein pada 6 bulan pertama). Adapun kebutuhan energi anak usia 1-3 tahun, dengan BB 12 kg dan TB 90 cm,
+                                    sebesar 1000 kkal dan protein 25g.
+                                    <LineBreak/>
+                               
+                                    Tabel AKG zat-zat gizi mikro penting yang dianjurkan untuk anak 0-2 tahun.
+                                    <LineBreak/>
+                                    <InlineUIContainer>
+                                        <Image Source="ms-appx:///Assets/TabelGizi.png" Height="140" Width="250" HorizontalAlignment="Center" />
+                                    </InlineUIContainer>
+                                  
+                                    <LineBreak/>
+                                    Kebutuhan gizi bayi 0-6 bulan sudah bisa tercukupi hanya dengan minum ASI secara ekslusif. Keunggulan
+                                    lain dari ASI yang tidak dimiliki makanan atau minuman lain adalah adanya kolostrum, yang mengandung zat kekebalan tubuh sehingga
+                                    bayi akan terhindar dari penyakit, khususnya penyakit infeksi.
+
+                                </Paragraph>
+                            </RichTextBlock>
+                        </ScrollViewer>
+</StackPanel>
                 </PivotItem>
 
                 <PivotItem>
                     <PivotItem.Header>
-                        <local:TabHeader Label="Prinsip Gizi" Glyph="&#xE76E;"/>
+                        <local:TabHeader Label="Prinsip" Glyph="&#xE76E;"/>
                     </PivotItem.Header>
-                    <TextBlock>Content 3</TextBlock>
+
+                    <!--Tab Pivot Prinsip-->
+                    <StackPanel>
+                        <ScrollViewer Height="410" VerticalScrollBarVisibility="Hidden">
+
+                            <RichTextBlock>
+                                <Paragraph FontSize="12" TextAlignment="Justify">
+                                    <LineBreak/>
+                                    <Bold>Prinsip Gizi Seimbang</Bold>
+                                    <LineBreak/>
+                                    
+                                    <Bold>1. Variasi Makanan</Bold>
+                                    <LineBreak/>
+                                    <Bold>A. Makanan Bayi 0 - 6 bulan : ASI Ekslusif</Bold>
+                                    <LineBreak/>
+                                    ASI memiliki keunggulan yang tidak dimiliki susu formula. ASI mengandung zat kekebalan tubuh yang dapat melindungi
+                                    bayi dari alergi dan penyakit-penyakit, seperti: diare, infeksi, usus dan penyakit pernafasan.
+                                    Kandungan ASI terdiri dari :
+                                    <LineBreak/>
+                                    <Bold>a. Karbohidrat</Bold>
+                                    <LineBreak/>
+                                    Karbohidrat utama dari ASI adalah laktosa (gula susu), yang sesuai dengan kondisi biologis atau sistem pencernaan bayi.
+                                    ASI dibutuhkan untuk pertumbuhan otak, mielinisasi dan pematangan otak agar otak tumbuh optimal.
+                                    <LineBreak/>
+                                    <Bold>b. Protein</Bold>
+                                    <LineBreak/>
+                                    Dibandingkan dengan susu formula, kandungan protein ASI relatif lebih rendah, tetapi lebih seimbang dengan kebutuhan bayi.
+                                    Selain itu, protein ASI lebih mudah dicerna oleh usus bayi.
+                                    
+                                    <LineBreak/>
+                                    <Bold>c. Kolesterol</Bold>
+                                    <LineBreak/>
+                                    Kolesterol berfungsi dalam pembentukan enzim metabolisme kolesterol, metabolisme itu akan mengendalikan kadar kolesterol
+                                    di kemudian hari yang dapat mencegah kejadian serangan jantung.
+                                    <LineBreak/>
+                                    <Bold>d. Vitamin dan Mineral</Bold>
+                                    <LineBreak/>
+                                    ASI mengandung vitamin dan mineral penting yang dibutuhkan bayi. Zat gizi mikro penting itu antara lain vitamin A,
+                                    tiamin, riboflavin, kalsium dan fosfor.
+                                    <LineBreak/>
+                                    <Bold>e. Zat Besi</Bold>
+                                    <LineBreak/>
+                                    Zat besi pun esensial untuk tumbuh-kembang otak bayi. Pada trimeter akhir sebelum akhir, bayi menghimpun simpanan zat besi
+                                    yang cukup hingga akhir 4-6 bulan. namun setelah 4-6 bulan mayoritas bayi membutuhkan lebih banyak zat besi.
+                                    <LineBreak/>
+                                    <Bold>f. Fluor</Bold>
+                                    <LineBreak/>
+                                    Fluor membantu membentuk gigi yang kuat dan mencegah gigi berlubang di kemudian hari.
+                                    <LineBreak/>
+                                    <Bold>g. Vitamin D</Bold>
+                                    <LineBreak/>
+                                    Vitamin ini membantu bayi menggunakan kalsium dari ASI untuk tumbuh-kembang tulang. Dianjurkan untuk memberikan suplemen
+                                    vitamin D kepada bayi karena ASI tidak mengandung banyak vitamin D.
+                                    <LineBreak/>
+                                    <Bold>B. Bayi 6 - 7 bulan: Bentuk lembut/lumat</Bold>
+                                    <LineBreak/>
+                                    Untuk buah, dapat diberikan pisang (misal, pisang raja dan pisang ambon), jeruk, labu, dan pepaya. Disamping buah, dapat
+                                    diberikan bubur susu dan biskuat yang dicairkan dengan ASI. Buah diberikan sebanyak 2 sendok makan sekali makan dan
+                                    dua kali sehari. Setiap jenis buah diberikan 2-3 hari berturut-turut agar anak dapat mengenal rasanya.
+                                    Di usia 7 bulan, selain bubur susu dan buah, mulailah memberikan bubur saring yang dibuat dari bahan makanan sumber
+                                    karbohidrat, seperti beras, makaroni, kentang, kacang hijau, atau roti, dilengkapi dengan protein hewani dan nabati, serta 
+                                    sayur. Untuk protein hewani, mulailah dari kuning telur karena mudah didapat dan tidak menimbulkan alergi. 
+                                    Hindari putih telur karena karena dapat menimbulkan alergi. Campur bahan - bahan tersebut, kemudian haluskan dengan cara 
+                                    diblender atau diulek diatas saringan. Sebagai perkenalan, berikan 2 sendok makan sekali makan untuk 2-3 kali sehari. 
+                                    Selanjutnya tingkatkan jumlahnya hingga akhirnya mencapai paling sedikit 7 sendok makan.
+                                    <LineBreak/>
+                                    <Bold>C. Bayi 8-9 Bulan</Bold>
+                                    <LineBreak/>
+                                    Dapat diberikan bubur biasa dengan jumlah pemberian minimal 8 sendok makan untuk sekali makan. Kandungan gizi bubur ini
+                                    sedikit demi sedikit ditambah dengan zat lemak seperti santan dan energi minyak. Bahan makanan ini dapat menambah
+                                    energi, disamping memberikan rasa gurih, juga mempertinggi penyerapan vitamin A dan zat gizi lain yang larut dalam lemak.
+                                    <LineBreak/>
+                                    <Bold>D. Bayi 10-12 Bulan</Bold>
+                                    <LineBreak/>
+                                    Di usia ini, bayi sudah diperkenalkan pada makanan keluarga, sehingga di usia 12 bulan sudah dapat makan bersama
+                                    keluarga. Mulanya si kecil dapat mengonsumsi nasi lembek, lalu perlahan-lahan ditingkatkan hingga akhirnya mendekati kepadatan
+                                    makanan keluarga. Makanan selingan yang bergizi dapat diberikan seperti bubur kacang hijau, biskuit, pepaya atau jeruk, dan pisang
+                                    <LineBreak/>
+                                    <Bold>E. Anak 1-2 Tahun</Bold>
+                                    <LineBreak/>
+                                    Setelah usia setahun, anak harus diperkenalkan dengan makanan keluarga. Selain karena pemberian MP-ASI saja tidak 
+                                    mencukupi kebutuhan gizi anak usia ini, anak pun mulai mengembangkan kebiasaan makan. Oleh karena itu untuk mengenalkan 
+                                    makanan keluarga, bukan hanya dengan membiasakan mengonsumsi makanan ber-Gizi Seimbang, melainkan juga dengan membiasakan
+                                    pola makan keluarga sehari - hari seperti: sarapan, makan siang dan malam. Porsi makanan anak usia ini kira-kira
+                                    separuh dari porsi orang dewasa.
+                                </Paragraph>
+                                
+                            </RichTextBlock>
+                        </ScrollViewer>
+                    </StackPanel>
                 </PivotItem>
 
             </Pivot>

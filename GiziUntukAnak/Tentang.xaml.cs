@@ -13,6 +13,7 @@ using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
 using Windows.UI.Xaml.Documents;
+using Windows.UI.Core;
 
 // The Blank Page item template is documented at http://go.microsoft.com/fwlink/?LinkId=234238
 
@@ -27,8 +28,28 @@ namespace GiziUntukAnak
         {
             this.InitializeComponent();
 
-            
 
+            //register back request event for current  view (onback in mobile)
+            Windows.UI.Core.SystemNavigationManager.GetForCurrentView().BackRequested +=
+            App_BackRequested;
+
+        }
+
+
+        private void App_BackRequested(object sender,
+     Windows.UI.Core.BackRequestedEventArgs e)
+        {
+            Frame rootFrame = Window.Current.Content as Frame;
+            if (rootFrame == null)
+                return;
+
+            // Navigate back if possible, and if the event has not 
+            // already been handled .
+            if (rootFrame.CanGoBack && e.Handled == false)
+            {
+                e.Handled = true;
+                rootFrame.GoBack();
+            }
         }
 
         private void btnHamburger_Click(object sender, RoutedEventArgs e)
@@ -57,5 +78,33 @@ namespace GiziUntukAnak
                 Frame.Navigate(typeof(MainPage));
             }
         }
+
+
+        //onback in dekstop UWP
+        protected override void OnNavigatedTo(NavigationEventArgs e)
+        {
+            Frame rootFrame = Window.Current.Content as Frame;
+
+            string myPages = "";
+            foreach (PageStackEntry page in rootFrame.BackStack)
+            {
+                myPages += page.SourcePageType.ToString() + "\n";
+            }
+            //stackCount.Text = myPages;
+
+            if (rootFrame.CanGoBack)
+            {
+                // Show UI in title bar if opted-in and in-app backstack is not empty.
+                SystemNavigationManager.GetForCurrentView().AppViewBackButtonVisibility =
+                    AppViewBackButtonVisibility.Visible;
+            }
+            else
+            {
+                // Remove the UI from the title bar if in-app back stack is empty.
+                SystemNavigationManager.GetForCurrentView().AppViewBackButtonVisibility =
+                    AppViewBackButtonVisibility.Collapsed;
+            }
+        }
+
     }
 }

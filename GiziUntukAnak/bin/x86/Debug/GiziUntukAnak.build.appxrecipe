@@ -355,6 +355,15 @@
       <PackagePath>Assets\SplashScreen.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Herdi\Documents\GitHub\GiziUntukAnak\GiziUntukAnak\Assets\TabelGizi.png">
+      <PackagePath>Assets\TabelGizi.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Herdi\Documents\GitHub\GiziUntukAnak\GiziUntukAnak\Assets\TabelGizi2.png">
+      <PackagePath>Assets\TabelGizi2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Herdi\Documents\GitHub\GiziUntukAnak\GiziUntukAnak\Assets\TabelGizi3.png">
+      <PackagePath>Assets\TabelGizi3.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Herdi\Documents\GitHub\GiziUntukAnak\GiziUntukAnak\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
     </AppxPackagedFile>
