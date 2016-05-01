@@ -351,6 +351,9 @@
     <AppxPackagedFile Include="C:\Users\Herdi\Documents\GitHub\GiziUntukAnak\GiziUntukAnak\Assets\anakUmur9.png">
       <PackagePath>Assets\anakUmur9.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Herdi\Documents\GitHub\GiziUntukAnak\GiziUntukAnak\Assets\berita1.png">
+      <PackagePath>Assets\berita1.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Herdi\Documents\GitHub\GiziUntukAnak\GiziUntukAnak\Assets\SplashScreen.scale-150.png">
       <PackagePath>Assets\SplashScreen.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>

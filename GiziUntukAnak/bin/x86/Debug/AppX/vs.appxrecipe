@@ -22,13 +22,13 @@
     <AppXManifest Include="C:\Users\Herdi\Documents\GitHub\GiziUntukAnak\GiziUntukAnak\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-05-01T00:14:41.394</Modified>
+      <Modified>2016-05-01T03:56:56.539</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Herdi\Documents\GitHub\GiziUntukAnak\GiziUntukAnak\bin\x86\Debug\GiziUntukAnak.exe">
       <PackagePath>entrypoint\GiziUntukAnak.exe</PackagePath>
-      <Modified>2016-05-01T00:14:40.285</Modified>
+      <Modified>2016-05-01T03:56:53.870</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Herdi\.nuget\packages\Microsoft.ApplicationInsights\1.0.0\lib\portable-win81+wpa81\Microsoft.ApplicationInsights.dll">
       <PackagePath>Microsoft.ApplicationInsights.dll</PackagePath>
@@ -470,6 +470,10 @@
       <PackagePath>Assets\anakUmur9.png</PackagePath>
       <Modified>2016-04-28T23:41:36.524</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Herdi\Documents\GitHub\GiziUntukAnak\GiziUntukAnak\Assets\berita1.png">
+      <PackagePath>Assets\berita1.png</PackagePath>
+      <Modified>2016-05-01T02:31:11.658</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Herdi\Documents\GitHub\GiziUntukAnak\GiziUntukAnak\Assets\SplashScreen.scale-150.png">
       <PackagePath>Assets\SplashScreen.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
@@ -527,7 +531,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Herdi\Documents\GitHub\GiziUntukAnak\GiziUntukAnak\bin\x86\Debug\GiziUntukAnak.xr.xml">
       <PackagePath>GiziUntukAnak.xr.xml</PackagePath>
-      <Modified>2016-04-30T08:14:47.894</Modified>
+      <Modified>2016-05-01T03:46:56.894</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -535,11 +539,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Herdi\Documents\GitHub\GiziUntukAnak\GiziUntukAnak\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2016-05-01T00:12:29.169</Modified>
+      <Modified>2016-05-01T03:56:54.712</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Herdi\Documents\GitHub\GiziUntukAnak\GiziUntukAnak\bin\x86\Debug\Core\GiziUntukAnak.exe">
       <PackagePath>GiziUntukAnak.exe</PackagePath>
-      <Modified>2016-05-01T00:14:41.387</Modified>
+      <Modified>2016-05-01T03:56:56.528</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

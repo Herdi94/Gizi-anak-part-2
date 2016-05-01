@@ -35,7 +35,7 @@
                     <ListBoxItem x:ConnectionId='3' Name="BerandaListBoxItem">
                         <StackPanel Orientation="Horizontal">
                             <TextBlock FontFamily="Segoe MDL2 Assets" FontSize="30" Text="&#xe80F;"/>
-                            <TextBlock Text="Beranda" FontSize="16" Margin="20,0,0,0"/>
+                            <TextBlock Text="Seputar Gizi" FontSize="16" Margin="20,0,0,0"/>
                         </StackPanel>
                     </ListBoxItem>
                     <ListBoxItem x:ConnectionId='4' Name="polaListBoxItem">
@@ -70,8 +70,9 @@
                     </PivotItem.Header>
 
                     <!--Tab Pivot Permasalahan-->
-                    <StackPanel>
-                        <ScrollViewer Height="410" VerticalScrollBarVisibility="Hidden">
+                    <GridView>
+                        <StackPanel>
+
                             <RichTextBlock>
                                 <Paragraph FontSize="12" TextAlignment="Justify">
                                     <LineBreak/>
@@ -105,11 +106,12 @@
                                     Junk food adalah jajanan yang tak ber-Gizi Seimbang, yang banyak disukai oleh anak dan sebagian orang dewasa. Ciri makanan
                                     ini adalah berlemak dan berkarbohidrat tinggi, rendah/tanpa serat, mengandung bahan pemanis dan perasa buatan,penambah rasa dan
                                     kadang-kadang mengandung bahan pengawet bukan untuk makanan. Contoh: makanan jajanan yang terlalu manis, terlalu asin, terlalu gurih dan terlalu berminyak.
-                                    
+
                                 </Paragraph>
                             </RichTextBlock>
-                        </ScrollViewer>
-                    </StackPanel>
+
+                        </StackPanel>
+                    </GridView>
                 </PivotItem>
 
                 <PivotItem>
@@ -118,8 +120,9 @@
                     </PivotItem.Header>
                     
                     <!--Tab Pivot Kebutuhan-->
-                    <StackPanel>
-                        <ScrollViewer Height="410" VerticalScrollBarVisibility="Hidden">
+                    <GridView>
+                        <StackPanel>
+
                             <RichTextBlock>
                                 <Paragraph FontSize="12" TextAlignment="Justify">
                                     <LineBreak/>
@@ -136,12 +139,13 @@
                                         <Image Source="ms-appx:///Assets/TabelGizi3.png" Height="140" Width="250" HorizontalAlignment="Center" />
                                     </InlineUIContainer>
                                     <LineBreak/>
-                                    
+
 
                                 </Paragraph>
                             </RichTextBlock>
-                        </ScrollViewer>
-                    </StackPanel>
+
+                        </StackPanel>
+                    </GridView>
                 </PivotItem>
 
                 <PivotItem>
@@ -149,8 +153,9 @@
                         <local:TabHeader Label="Prinsip Gizi" Glyph="&#xE76E;"/>
                     </PivotItem.Header>
                     <!--Tab Pivot Prinsip-->
-                    <StackPanel>
-                        <ScrollViewer Height="410" VerticalScrollBarVisibility="Hidden">
+                    <GridView>
+                        <StackPanel>
+
 
                             <RichTextBlock>
                                 <Paragraph FontSize="12" TextAlignment="Justify">
@@ -172,8 +177,9 @@
                                     diharuskan menjaga kebersihan gigi dan mulut serta kebersihan badan.
                                 </Paragraph>
                             </RichTextBlock>
-                        </ScrollViewer>
-                    </StackPanel>
+
+                        </StackPanel>
+                    </GridView>
                 </PivotItem>
 
             </Pivot>

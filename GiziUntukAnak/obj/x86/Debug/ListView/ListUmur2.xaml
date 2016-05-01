@@ -35,7 +35,7 @@
                     <ListBoxItem x:ConnectionId='3' Name="BerandaListBoxItem">
                         <StackPanel Orientation="Horizontal">
                             <TextBlock FontFamily="Segoe MDL2 Assets" FontSize="30" Text="&#xe80F;"/>
-                            <TextBlock Text="Beranda" FontSize="16" Margin="20,0,0,0"/>
+                            <TextBlock Text="Seputar Gizi" FontSize="16" Margin="20,0,0,0"/>
                         </StackPanel>
                     </ListBoxItem>
                     <ListBoxItem x:ConnectionId='4' Name="polaListBoxItem">
@@ -70,49 +70,50 @@
                     </PivotItem.Header>
 
 <!--Tab Pivot Permasalahan-->
+                    <GridView>
                         <StackPanel>
-                            <ScrollViewer Height="410" VerticalScrollBarVisibility="Hidden">
-                                <RichTextBlock>
-                                    <Paragraph FontSize="12" TextAlignment="Justify">
-                                        <LineBreak/>
+                            
+                            <RichTextBlock>
+                                <Paragraph FontSize="12" TextAlignment="Justify">
+                                    <LineBreak/>
                                     <Bold>Gizi Seimbang Umur 0-2 Tahun</Bold>
                                     <LineBreak/>
                                     Air susu ibu(ASI) satu-satunya makanan yang mengandung semua zat gizi untuk pertumbuhan bayi usia 0 - 6 bulan. Dengan 
                                     demikian ASI ekslusif yakni ASI saja merupakan makanan yang ber-Gizi Seimbang. Bayi usia di atas 6 bulan memerlukan
                                     makanan pendamping ASI(MP-ASI).
-                                    </Paragraph>
+                                </Paragraph>
 
 
-                                    <Paragraph FontSize="12" TextAlignment="Justify">
+                                <Paragraph FontSize="12" TextAlignment="Justify">
                                     <Bold>Kondisi Khas dan Permasalahan</Bold>
-                                        <LineBreak/>
-                                        Pada usia 2 tahun pertumbuhan sel-sel otak sudah mencapai lebih dari 80 persen. Bila dalam periode ini anak mengalami 
+                                    <LineBreak/>
+                                    Pada usia 2 tahun pertumbuhan sel-sel otak sudah mencapai lebih dari 80 persen. Bila dalam periode ini anak mengalami 
                                     kekurangan gizi yang dibutuhkan otak, perkembangan otak dan kecerdasannya akan terpengaruh. Bila pola pemberian ASI tidak 
                                     benar atau MP-ASI tidak mencukupi kebutuhan zat gizi yang diperlukan tubuh, bayi akan mengalami gangguan pertumbuhan. 
                                     Beberapa Masalah yang umum terjadi pada rentang usia 0 - 2 tahun:
-                                    </Paragraph>
+                                </Paragraph>
 
 
 
-                                    <Paragraph FontSize="12" TextAlignment="Justify">
-                                        <Bold>a. Bayi sering bangun malam</Bold>
-                                        <LineBreak/>
-                                        Seringnya bayi bangun malam karena tubuh bayi membutuhkan pemenuhan makanan. ini justru akan membantu ibu dalam pemberian
+                                <Paragraph FontSize="12" TextAlignment="Justify">
+                                    <Bold>a. Bayi sering bangun malam</Bold>
+                                    <LineBreak/>
+                                    Seringnya bayi bangun malam karena tubuh bayi membutuhkan pemenuhan makanan. ini justru akan membantu ibu dalam pemberian
                                     ASI ekslusif, karena merangsang hormon prolaktin dan oktositosin yang berfungsi untuk memproduksi dan melancarkan 
                                     pengeluaran ASI. Bayi usia 1 tahun menghabiskan waktu tidur antara 14 dan 16 jam. Bahkan, bayi yang baru lahir bisa 
                                     menghabiskan waktu 16 - 18 jam per hari.
 
-                                    </Paragraph>
+                                </Paragraph>
 
 
-                                    <Paragraph FontSize="12" TextAlignment="Justify">
-                                        <Bold>b. Bayi sering menangis bukan berarti ASI tidak cukup</Bold>
-                                        <LineBreak/>
-                                        Salah satu kegagalan ASI ekslusif adalah ibu menganggap bayi menangis disebabkan bayi lapar karena ASI tidak cukup.
+                                <Paragraph FontSize="12" TextAlignment="Justify">
+                                    <Bold>b. Bayi sering menangis bukan berarti ASI tidak cukup</Bold>
+                                    <LineBreak/>
+                                    Salah satu kegagalan ASI ekslusif adalah ibu menganggap bayi menangis disebabkan bayi lapar karena ASI tidak cukup.
                                     Sehingga kepada bayi perlu diberi tambahan makanan lain. Anggapan ini tidak benar karena sampai umur 6 bulan, kebutuhan
                                     bayi sudah cukup dipenuhi dengan ASI saja. Menangis merupakan reaksi emosi bayi seperti: rasa haus, lapar, kepanasan,
                                     popok basah dan sebagainya.
-                                    </Paragraph>
+                                </Paragraph>
 
 
 
@@ -126,9 +127,9 @@
                                 </Paragraph>
 
                             </RichTextBlock>
-                            </ScrollViewer>
+                            
                         </StackPanel>
-                   
+                    </GridView>
                 </PivotItem>
 
                 <PivotItem>
@@ -137,11 +138,12 @@
                     </PivotItem.Header>
 
                     <!--Tab Pivot Kebutuhan-->
-                    <StackPanel>
-                        <ScrollViewer Height="410" VerticalScrollBarVisibility="Hidden">
+                    <GridView>
+                        <StackPanel>
+
                             <RichTextBlock>
-                                <Paragraph FontSize="12" TextAlignment="Justify"> 
-                                 <LineBreak/>
+                                <Paragraph FontSize="12" TextAlignment="Justify">
+                                    <LineBreak/>
                                     <Bold>Kebutuhan Zat Gizi</Bold>
                                     <LineBreak/>
                                     Menurut Angka kecukupan Gizi(AKG) rata-rata yang dianjurkan(per orang/hari), kebutuhan energi anak usia 7 - 11 bulan sebesar
@@ -149,13 +151,13 @@
                                     kebutuhan protein pada 6 bulan pertama). Adapun kebutuhan energi anak usia 1-3 tahun, dengan BB 12 kg dan TB 90 cm,
                                     sebesar 1000 kkal dan protein 25g.
                                     <LineBreak/>
-                               
+
                                     Tabel AKG zat-zat gizi mikro penting yang dianjurkan untuk anak 0-2 tahun.
                                     <LineBreak/>
                                     <InlineUIContainer>
                                         <Image Source="ms-appx:///Assets/TabelGizi.png" Height="140" Width="250" HorizontalAlignment="Center" />
                                     </InlineUIContainer>
-                                  
+
                                     <LineBreak/>
                                     Kebutuhan gizi bayi 0-6 bulan sudah bisa tercukupi hanya dengan minum ASI secara ekslusif. Keunggulan
                                     lain dari ASI yang tidak dimiliki makanan atau minuman lain adalah adanya kolostrum, yang mengandung zat kekebalan tubuh sehingga
@@ -163,8 +165,9 @@
 
                                 </Paragraph>
                             </RichTextBlock>
-                        </ScrollViewer>
-</StackPanel>
+
+                        </StackPanel>
+                    </GridView>
                 </PivotItem>
 
                 <PivotItem>
@@ -173,15 +176,15 @@
                     </PivotItem.Header>
 
                     <!--Tab Pivot Prinsip-->
-                    <StackPanel>
-                        <ScrollViewer Height="410" VerticalScrollBarVisibility="Hidden">
+                    <GridView>
+                        <StackPanel>
 
                             <RichTextBlock>
                                 <Paragraph FontSize="12" TextAlignment="Justify">
                                     <LineBreak/>
                                     <Bold>Prinsip Gizi Seimbang</Bold>
                                     <LineBreak/>
-                                    
+
                                     <Bold>1. Variasi Makanan</Bold>
                                     <LineBreak/>
                                     <Bold>A. Makanan Bayi 0 - 6 bulan : ASI Ekslusif</Bold>
@@ -199,7 +202,7 @@
                                     <LineBreak/>
                                     Dibandingkan dengan susu formula, kandungan protein ASI relatif lebih rendah, tetapi lebih seimbang dengan kebutuhan bayi.
                                     Selain itu, protein ASI lebih mudah dicerna oleh usus bayi.
-                                    
+
                                     <LineBreak/>
                                     <Bold>c. Kolesterol</Bold>
                                     <LineBreak/>
@@ -257,10 +260,11 @@
                                     pola makan keluarga sehari - hari seperti: sarapan, makan siang dan malam. Porsi makanan anak usia ini kira-kira
                                     separuh dari porsi orang dewasa.
                                 </Paragraph>
-                                
+
                             </RichTextBlock>
-                        </ScrollViewer>
-                    </StackPanel>
+
+                        </StackPanel>
+                    </GridView>
                 </PivotItem>
 
             </Pivot>

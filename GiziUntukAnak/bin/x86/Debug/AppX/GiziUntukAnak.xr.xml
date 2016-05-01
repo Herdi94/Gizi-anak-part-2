@@ -142,13 +142,20 @@
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Data.Binding" />
     <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.StaticResourceExtension" />
-    <RootType FullName="GiziUntukAnak.MainPage" />
     <RootType FullName="Windows.UI.Xaml.Controls.GridView">
+      <RootProperty Name="Items" />
       <RootProperty Name="ItemsSource" />
       <RootProperty Name="IsItemClickEnabled" />
       <RootProperty Name="ItemTemplate" />
       <RootEvent Name="ItemClick" />
     </RootType>
+    <RootType FullName="Windows.UI.Xaml.Documents.Run" />
+    <RootType FullName="Windows.UI.Xaml.Documents.Hyperlink">
+      <RootProperty Name="NavigateUri" />
+      <RootProperty Name="Foreground" />
+      <RootProperty Name="Inlines" />
+    </RootType>
+    <RootType FullName="GiziUntukAnak.MainPage" />
     <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.BindExtension" />
     <RootType FullName="Windows.UI.Xaml.DataTemplate">
       <RootProperty Name="Template" />

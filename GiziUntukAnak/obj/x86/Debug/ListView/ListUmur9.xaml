@@ -36,7 +36,7 @@
                     <ListBoxItem x:ConnectionId='3' Name="BerandaListBoxItem">
                         <StackPanel Orientation="Horizontal">
                             <TextBlock FontFamily="Segoe MDL2 Assets" FontSize="30" Text="&#xe80F;"/>
-                            <TextBlock Text="Beranda" FontSize="16" Margin="20,0,0,0"/>
+                            <TextBlock Text="Seputar Gizi" FontSize="16" Margin="20,0,0,0"/>
                         </StackPanel>
                     </ListBoxItem>
                     <ListBoxItem x:ConnectionId='4' Name="polaListBoxItem">
@@ -70,8 +70,8 @@
                         <local:TabHeader Label="Permasalahan" Glyph="&#xE716;"  Width="78" />
                     </PivotItem.Header>
                     <!--Tab Pivot Permasalahan-->
-                    <StackPanel>
-                        <ScrollViewer Height="410" VerticalScrollBarVisibility="Hidden">
+                    <GridView>
+                        <StackPanel>
 
                             <RichTextBlock>
                                 <Paragraph FontSize="12" TextAlignment="Justify">
@@ -83,7 +83,7 @@
                                     <LineBreak/>
                                     <Bold>Kondisi Khas dan Permasalahan</Bold>
                                     <LineBreak/>
-                                    
+
                                     Kecepatan pertumbuhan anak di rentang usia ini merupakan kecepatan genetis masing-masing anak, yang juga dipengaruhi
                                     faktor lingkungan, terutama makanan. Hasil dari perbedaan proses pertumbuhan mengakibatkan ada anak yang berbadan pendek
                                     dan ada yang tinggi. Komposisi tubuh anak setelah umur 5 tahun mulai berubah. Perbedaan komposisi tubuh anak perempuan
@@ -96,8 +96,9 @@
                                     rendah karena kurang gizi dan sering sakit.
                                 </Paragraph>
                             </RichTextBlock>
-                        </ScrollViewer>
-                    </StackPanel>
+
+                        </StackPanel>
+                    </GridView>
                 </PivotItem>
 
                 <PivotItem>
@@ -105,8 +106,8 @@
                         <local:TabHeader Label="Kebutuhan" Glyph="&#xE8FB;" />
                     </PivotItem.Header>
                     <!--Tab Pivot Kebutuhan-->
-                    <StackPanel>
-                        <ScrollViewer Height="410" VerticalScrollBarVisibility="Hidden">
+                    <GridView>
+                        <StackPanel>
 
                             <RichTextBlock>
                                 <Paragraph FontSize="12" TextAlignment="Justify">
@@ -128,9 +129,9 @@
 
                                 </Paragraph>
                             </RichTextBlock>
-                        </ScrollViewer>
-                    </StackPanel>
 
+                        </StackPanel>
+                    </GridView>
                 </PivotItem>
 
                 <PivotItem>
@@ -138,8 +139,8 @@
                         <local:TabHeader Label="Prinsip Gizi" Glyph="&#xE76E;"/>
                     </PivotItem.Header>
                     <!--Tab Pivot Prinsip-->
-                    <StackPanel>
-                        <ScrollViewer Height="410" VerticalScrollBarVisibility="Hidden">
+                    <GridView>
+                        <StackPanel>
 
                             <RichTextBlock>
                                 <Paragraph FontSize="12" TextAlignment="Justify">
@@ -163,9 +164,9 @@
 
                                 </Paragraph>
                             </RichTextBlock>
-                        </ScrollViewer>
-                    </StackPanel>
 
+                        </StackPanel>
+                    </GridView>
 
                 </PivotItem>
 

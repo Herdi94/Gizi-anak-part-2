@@ -34,7 +34,7 @@
                     <ListBoxItem x:ConnectionId='3' Name="BerandaListBoxItem">
                         <StackPanel Orientation="Horizontal">
                             <TextBlock FontFamily="Segoe MDL2 Assets" FontSize="30" Text="&#xe80F;"/>
-                            <TextBlock Text="Beranda" FontSize="16" Margin="20,0,0,0"/>
+                            <TextBlock Text="Seputar Gizi" FontSize="16" Margin="20,0,0,0"/>
                         </StackPanel>
                     </ListBoxItem>
                     <ListBoxItem x:ConnectionId='4' Name="polaListBoxItem">
