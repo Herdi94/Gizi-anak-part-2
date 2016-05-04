@@ -351,12 +351,41 @@
     <AppxPackagedFile Include="C:\Users\Herdi\Documents\GitHub\GiziUntukAnak\GiziUntukAnak\Assets\anakUmur9.png">
       <PackagePath>Assets\anakUmur9.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Herdi\Documents\GitHub\GiziUntukAnak\GiziUntukAnak\Assets\bc.png">
+      <PackagePath>Assets\bc.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Herdi\Documents\GitHub\GiziUntukAnak\GiziUntukAnak\Assets\berita1.png">
       <PackagePath>Assets\berita1.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Herdi\Documents\GitHub\GiziUntukAnak\GiziUntukAnak\Assets\SplashScreen.scale-150.png">
-      <PackagePath>Assets\SplashScreen.scale-150.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    <AppxPackagedFile Include="C:\Users\Herdi\Documents\GitHub\GiziUntukAnak\GiziUntukAnak\Assets\berita10.png">
+      <PackagePath>Assets\berita10.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Herdi\Documents\GitHub\GiziUntukAnak\GiziUntukAnak\Assets\berita2.png">
+      <PackagePath>Assets\berita2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Herdi\Documents\GitHub\GiziUntukAnak\GiziUntukAnak\Assets\berita3.png">
+      <PackagePath>Assets\berita3.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Herdi\Documents\GitHub\GiziUntukAnak\GiziUntukAnak\Assets\berita4.png">
+      <PackagePath>Assets\berita4.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Herdi\Documents\GitHub\GiziUntukAnak\GiziUntukAnak\Assets\berita5.png">
+      <PackagePath>Assets\berita5.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Herdi\Documents\GitHub\GiziUntukAnak\GiziUntukAnak\Assets\berita6.png">
+      <PackagePath>Assets\berita6.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Herdi\Documents\GitHub\GiziUntukAnak\GiziUntukAnak\Assets\berita7.png">
+      <PackagePath>Assets\berita7.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Herdi\Documents\GitHub\GiziUntukAnak\GiziUntukAnak\Assets\berita8.png">
+      <PackagePath>Assets\berita8.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Herdi\Documents\GitHub\GiziUntukAnak\GiziUntukAnak\Assets\berita9.png">
+      <PackagePath>Assets\berita9.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Herdi\Documents\GitHub\GiziUntukAnak\GiziUntukAnak\Assets\latar.png">
+      <PackagePath>Assets\latar.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Herdi\Documents\GitHub\GiziUntukAnak\GiziUntukAnak\Assets\TabelGizi.png">
       <PackagePath>Assets\TabelGizi.png</PackagePath>

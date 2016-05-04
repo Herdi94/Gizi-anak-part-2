@@ -7,13 +7,13 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <Grid Background="Azure">
 
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto" />
-            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />  
 
-        </Grid.RowDefinitions>
+        </Grid.RowDefinitions> 
         <RelativePanel Background="Green">
             <StackPanel Orientation="Horizontal">
                 <Button Name="btnHamburger" FontFamily="Segoe MDL2 Assets" Content="&#xE700;" FontSize="36" Click="btnHamburger_Click" HorizontalAlignment="Stretch" VerticalAlignment="Bottom"/>
@@ -31,7 +31,7 @@
             
             >
             <SplitView.Pane>
-                <ListBox SelectionMode="Single"  Name="iconListBox" SelectionChanged="iconListBox_SelectionChanged" Background="Azure">
+                <ListBox SelectionMode="Single"  Name="iconListBox" SelectionChanged="iconListBox_SelectionChanged" Background="LightGreen">
                     <ListBoxItem Name="BerandaListBoxItem">
                         <StackPanel Orientation="Horizontal">
                             <TextBlock FontFamily="Segoe MDL2 Assets" FontSize="30" Text="&#xe80F;"/>
@@ -66,7 +66,7 @@
 
             <!--List View-->
 
-                <GridView>
+                <GridView> 
                     
                     <!--Berita 1 -->
                         <StackPanel Orientation="Horizontal"  HorizontalAlignment="Center">
@@ -75,12 +75,12 @@
                     <StackPanel>
                             <!--content-->
                             <TextBlock FontSize="12">
-                            <Run> Kualitas bayi tak semata diukur dari</Run> 
+                            <Run>Salah satu kegiatan Karnaval Gizi</Run> 
                                 <LineBreak/>
-                                <Run>kesehatannya. Tetapi, pertumbuhan..</Run>
+                                <Run>adalah fun walk yang diikuti...</Run>
                                 <LineBreak/>
                                 
-                            <Hyperlink NavigateUri="http://gizi.depkes.go.id/kualitas-balita-tak-semata-diukur-dari-kesehatannya"
+                            <Hyperlink NavigateUri="http://lifestyle.sindonews.com/read/1079831/155/permasalahan-gizi-anak-indonesia-masih-perlu-perhatian-1453644124"
                              Foreground="Green"> Baca disini</Hyperlink>
                              <Run>.</Run>
                             </TextBlock >
@@ -92,16 +92,16 @@
 
                 <StackPanel Orientation="Horizontal"  HorizontalAlignment="Center">
 
-                    <Image  Source="ms-appx:///Assets/berita1.png" Height="50"  HorizontalAlignment="Center"/>
+                    <Image  Source="ms-appx:///Assets/berita2.png" Height="50"  HorizontalAlignment="Center"/>
                     <StackPanel>
                         <!--content-->
                         <TextBlock FontSize="12">
-                            <Run> Kualitas bayi tak semata diukur dari</Run> 
+                            <Run>Masalah gizi pada anak usia</Run> 
                                 <LineBreak/>
-                                <Run>kesehatannya. Tetapi, pertumbuhan..</Run>
+                                <Run>dini terjadi bukan hanya karena...</Run>
                                 <LineBreak/>
                                 
-                            <Hyperlink NavigateUri="http://gizi.depkes.go.id/kualitas-balita-tak-semata-diukur-dari-kesehatannya"
+                            <Hyperlink NavigateUri="http://emagrecendo17quilos.blogspot.com/2016/02/masalah-gizi-anak-usia-dini.html?m=1"
                              Foreground="Green"> Baca disini</Hyperlink>
                              <Run>.</Run>
                         </TextBlock >
@@ -113,16 +113,16 @@
 
                 <StackPanel Orientation="Horizontal"  HorizontalAlignment="Center">
 
-                    <Image  Source="ms-appx:///Assets/berita1.png" Height="50"  HorizontalAlignment="Center"/>
+                    <Image  Source="ms-appx:///Assets/berita3.png" Height="50"  HorizontalAlignment="Center"/>
                     <StackPanel>
                         <!--content-->
                         <TextBlock FontSize="12">
-                            <Run> Kualitas bayi tak semata diukur dari</Run> 
+                            <Run>Proporsi masalah pertumbuhan</Run> 
                                 <LineBreak/>
-                                <Run>kesehatannya. Tetapi, pertumbuhan..</Run>
+                                <Run>anak di Indonesia persis yakni.............</Run>
                                 <LineBreak/>
                                 
-                            <Hyperlink NavigateUri="http://gizi.depkes.go.id/kualitas-balita-tak-semata-diukur-dari-kesehatannya"
+                            <Hyperlink NavigateUri="http://www.bbc.com/indonesia/berita_indonesia/2016/03/160331_indonesia_unicef_gizi"
                              Foreground="Green"> Baca disini</Hyperlink>
                              <Run>.</Run>
                         </TextBlock >
@@ -134,16 +134,16 @@
 
                 <StackPanel Orientation="Horizontal"  HorizontalAlignment="Center">
 
-                    <Image  Source="ms-appx:///Assets/berita1.png" Height="50"  HorizontalAlignment="Center"/>
+                    <Image  Source="ms-appx:///Assets/berita4.png" Height="50"  HorizontalAlignment="Center"/>
                     <StackPanel>
                         <!--content-->
                         <TextBlock FontSize="12">
-                            <Run> Kualitas bayi tak semata diukur dari</Run> 
+                            <Run>Sejak bayi lahir akan mengalami</Run> 
                                 <LineBreak/>
-                                <Run>kesehatannya. Tetapi, pertumbuhan..</Run>
+                                <Run> proses tumbuh dan bekembang.......</Run>
                                 <LineBreak/>
                                 
-                            <Hyperlink NavigateUri="http://gizi.depkes.go.id/kualitas-balita-tak-semata-diukur-dari-kesehatannya"
+                            <Hyperlink NavigateUri="http://gizitinggi.org/kenali-tahapan-perkembangan-anak-usia-dini.html"
                              Foreground="Green"> Baca disini</Hyperlink>
                              <Run>.</Run>
                         </TextBlock >
@@ -155,16 +155,16 @@
 
                 <StackPanel Orientation="Horizontal"  HorizontalAlignment="Center">
 
-                    <Image  Source="ms-appx:///Assets/berita1.png" Height="50"  HorizontalAlignment="Center"/>
+                    <Image  Source="ms-appx:///Assets/berita5.png" Height="50"  HorizontalAlignment="Center"/>
                     <StackPanel>
                         <!--content-->
                         <TextBlock FontSize="12">
-                            <Run> Kualitas bayi tak semata diukur dari</Run> 
+                            <Run>Kesadaran akan pentingnya  </Run> 
                                 <LineBreak/>
-                                <Run>kesehatannya. Tetapi, pertumbuhan..</Run>
+                                <Run>gizi seimbang dalam mencegah.......</Run>
                                 <LineBreak/>
                                 
-                            <Hyperlink NavigateUri="http://gizi.depkes.go.id/kualitas-balita-tak-semata-diukur-dari-kesehatannya"
+                            <Hyperlink NavigateUri="http://www.beritasatu.com/kesra/343311-edukasi-gizi-hadir-meriahkan-hari-gizi-rasional-2016.html"
                              Foreground="Green"> Baca disini</Hyperlink>
                              <Run>.</Run>
                         </TextBlock >
@@ -176,16 +176,16 @@
 
                 <StackPanel Orientation="Horizontal"  HorizontalAlignment="Center">
 
-                    <Image  Source="ms-appx:///Assets/berita1.png" Height="50"  HorizontalAlignment="Center"/>
+                    <Image  Source="ms-appx:///Assets/berita6.png" Height="50"  HorizontalAlignment="Center"/>
                     <StackPanel>
                         <!--content-->
                         <TextBlock FontSize="12">
-                            <Run> Kualitas bayi tak semata diukur dari</Run> 
+                            <Run>kelebihan gizi sejak usia dini</Run> 
                                 <LineBreak/>
-                                <Run>kesehatannya. Tetapi, pertumbuhan..</Run>
+                                <Run>perlu terus menerus dilakukan..</Run>
                                 <LineBreak/>
                                 
-                            <Hyperlink NavigateUri="http://gizi.depkes.go.id/kualitas-balita-tak-semata-diukur-dari-kesehatannya"
+                            <Hyperlink NavigateUri="http://www.sarihusada.co.id/Berita-Aktifitas/Berita-Sarihusada/PERGIZI-PANGAN-Indonesia-dan-Sarihusada-Gelar-Edukasi-Gizi-Meriahkan-Hari-Gizi-Nasional-2016"
                              Foreground="Green"> Baca disini</Hyperlink>
                              <Run>.</Run>
                         </TextBlock >
@@ -197,16 +197,16 @@
 
                 <StackPanel Orientation="Horizontal"  HorizontalAlignment="Center">
 
-                    <Image  Source="ms-appx:///Assets/berita1.png" Height="50"  HorizontalAlignment="Center"/>
+                    <Image  Source="ms-appx:///Assets/berita7.png" Height="50"  HorizontalAlignment="Center"/>
                     <StackPanel>
                         <!--content-->
                         <TextBlock FontSize="12">
-                            <Run> Kualitas bayi tak semata diukur dari</Run> 
+                            <Run>Kekurangan gizi menyebabkan</Run> 
                                 <LineBreak/>
-                                <Run>kesehatannya. Tetapi, pertumbuhan..</Run>
+                                <Run> anak mengalami gangguan.. </Run>
                                 <LineBreak/>
                                 
-                            <Hyperlink NavigateUri="http://gizi.depkes.go.id/kualitas-balita-tak-semata-diukur-dari-kesehatannya"
+                            <Hyperlink NavigateUri="http://health.detik.com/read/2016/01/26/183019/3127784/1301/jangan-abaikan-gizi-anak-risikonya-stunting"
                              Foreground="Green"> Baca disini</Hyperlink>
                              <Run>.</Run>
                         </TextBlock >
@@ -218,16 +218,16 @@
 
                 <StackPanel Orientation="Horizontal"  HorizontalAlignment="Center">
 
-                    <Image  Source="ms-appx:///Assets/berita1.png" Height="50"  HorizontalAlignment="Center"/>
+                    <Image  Source="ms-appx:///Assets/berita8.png" Height="50"  HorizontalAlignment="Center"/>
                     <StackPanel>
                         <!--content-->
                         <TextBlock FontSize="12">
-                            <Run> Kualitas bayi tak semata diukur dari</Run> 
+                            <Run>Hampir semua anak menyukai</Run> 
                                 <LineBreak/>
-                                <Run>kesehatannya. Tetapi, pertumbuhan..</Run>
+                                <Run> makanan dan minuman yang....</Run>
                                 <LineBreak/>
                                 
-                            <Hyperlink NavigateUri="http://gizi.depkes.go.id/kualitas-balita-tak-semata-diukur-dari-kesehatannya"
+                            <Hyperlink NavigateUri="http://pedulisehat.info/waspadai-konsumsi-gula-berlebih-pada-si-kecil/"
                              Foreground="Green"> Baca disini</Hyperlink>
                              <Run>.</Run>
                         </TextBlock >
@@ -239,16 +239,16 @@
 
                 <StackPanel Orientation="Horizontal"  HorizontalAlignment="Center">
 
-                    <Image  Source="ms-appx:///Assets/berita1.png" Height="50"  HorizontalAlignment="Center"/>
+                    <Image  Source="ms-appx:///Assets/berita9.png" Height="50"  HorizontalAlignment="Center"/>
                     <StackPanel>
                         <!--content-->
                         <TextBlock FontSize="12">
-                            <Run> Kualitas bayi tak semata diukur dari</Run> 
+                            <Run>Pakar Gizi dan Pangan Indonesia</Run> 
                                 <LineBreak/>
-                                <Run>kesehatannya. Tetapi, pertumbuhan..</Run>
+                                <Run>(Pergizi Pangan) menilai....</Run>
                                 <LineBreak/>
                                 
-                            <Hyperlink NavigateUri="http://gizi.depkes.go.id/kualitas-balita-tak-semata-diukur-dari-kesehatannya"
+                            <Hyperlink NavigateUri="http://www.mediaindonesia.com/news/read/25894/anak-indonesia-masih-hadapi-masalah-gizi/2016-01-25"
                              Foreground="Green"> Baca disini</Hyperlink>
                              <Run>.</Run>
                         </TextBlock >
@@ -261,60 +261,16 @@
 
                 <StackPanel Orientation="Horizontal"  HorizontalAlignment="Center">
 
-                    <Image  Source="ms-appx:///Assets/berita1.png" Height="50"  HorizontalAlignment="Center"/>
+                    <Image  Source="ms-appx:///Assets/berita10.png" Height="50"  HorizontalAlignment="Center"/>
                     <StackPanel>
                         <!--content-->
                         <TextBlock FontSize="12">
-                            <Run> Kualitas bayi tak semata diukur dari</Run> 
+                            <Run>Masa peralihan yang berlangsung</Run> 
                                 <LineBreak/>
-                                <Run>kesehatannya. Tetapi, pertumbuhan..</Run>
-                                <LineBreak/>
-                                
-                            <Hyperlink NavigateUri="http://gizi.depkes.go.id/kualitas-balita-tak-semata-diukur-dari-kesehatannya"
-                             Foreground="Green"> Baca disini</Hyperlink>
-                             <Run>.</Run>
-                        </TextBlock >
-                    </StackPanel>
-
-                </StackPanel>
-
-
-                <!--Berita 11 -->
-
-                <StackPanel Orientation="Horizontal"  HorizontalAlignment="Center">
-
-                    <Image  Source="ms-appx:///Assets/berita1.png" Height="50"  HorizontalAlignment="Center"/>
-                    <StackPanel>
-                        <!--content-->
-                        <TextBlock FontSize="12">
-                            <Run> Kualitas bayi tak semata diukur dari</Run> 
-                                <LineBreak/>
-                                <Run>kesehatannya. Tetapi, pertumbuhan..</Run>
+                                <Run> pada usia 6 bulan sampai....</Run>
                                 <LineBreak/>
                                 
-                            <Hyperlink NavigateUri="http://gizi.depkes.go.id/kualitas-balita-tak-semata-diukur-dari-kesehatannya"
-                             Foreground="Green"> Baca disini</Hyperlink>
-                             <Run>.</Run>
-                        </TextBlock >
-                    </StackPanel>
-
-                </StackPanel>
-
-
-                <!--Berita 12 -->
-
-                <StackPanel Orientation="Horizontal"  HorizontalAlignment="Center">
-
-                    <Image  Source="ms-appx:///Assets/berita1.png" Height="50"  HorizontalAlignment="Center"/>
-                    <StackPanel>
-                        <!--content-->
-                        <TextBlock FontSize="12">
-                            <Run> Kualitas bayi tak semata diukur dari</Run> 
-                                <LineBreak/>
-                                <Run>kesehatannya. Tetapi, pertumbuhan..</Run>
-                                <LineBreak/>
-                                
-                            <Hyperlink NavigateUri="http://gizi.depkes.go.id/kualitas-balita-tak-semata-diukur-dari-kesehatannya"
+                            <Hyperlink NavigateUri="http://pedulisehat.info/5-kesalahan-umum-dalam-menyiapkan-mpasi/"
                              Foreground="Green"> Baca disini</Hyperlink>
                              <Run>.</Run>
                         </TextBlock >
@@ -324,8 +280,12 @@
 
 
 
+             
 
-            </GridView>
+
+
+
+          </GridView>
            
 
 

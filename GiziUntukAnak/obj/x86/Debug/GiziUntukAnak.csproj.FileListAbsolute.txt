@@ -233,9 +233,6 @@ C:\Users\Herdi\Documents\GitHub\GiziUntukAnak\GiziUntukAnak\bin\x86\Debug\ListVi
 C:\Users\Herdi\Documents\GitHub\GiziUntukAnak\GiziUntukAnak\bin\x86\Debug\MainPage.xbf
 C:\Users\Herdi\Documents\GitHub\GiziUntukAnak\GiziUntukAnak\bin\x86\Debug\PolaGizi.xbf
 C:\Users\Herdi\Documents\GitHub\GiziUntukAnak\GiziUntukAnak\bin\x86\Debug\Tentang.xbf
-C:\Users\Herdi\Documents\GitHub\GiziUntukAnak\GiziUntukAnak\bin\x86\Debug\GiziUntukAnak.xr.xml
-C:\Users\Herdi\Documents\GitHub\GiziUntukAnak\GiziUntukAnak\bin\x86\Debug\GiziUntukAnak.exe
-C:\Users\Herdi\Documents\GitHub\GiziUntukAnak\GiziUntukAnak\bin\x86\Debug\GiziUntukAnak.pdb
 C:\Users\Herdi\Documents\GitHub\GiziUntukAnak\GiziUntukAnak\bin\x86\Debug\resources.pri
 C:\Users\Herdi\Documents\GitHub\GiziUntukAnak\GiziUntukAnak\bin\x86\Debug\AppxManifest.xml
 C:\Users\Herdi\Documents\GitHub\GiziUntukAnak\GiziUntukAnak\bin\x86\Debug\Core\AppxManifest.xml
@@ -382,8 +379,6 @@ C:\Users\Herdi\Documents\GitHub\GiziUntukAnak\GiziUntukAnak\obj\x86\Debug\MainPa
 C:\Users\Herdi\Documents\GitHub\GiziUntukAnak\GiziUntukAnak\obj\x86\Debug\PolaGizi.xbf
 C:\Users\Herdi\Documents\GitHub\GiziUntukAnak\GiziUntukAnak\obj\x86\Debug\Tentang.xbf
 C:\Users\Herdi\Documents\GitHub\GiziUntukAnak\GiziUntukAnak\obj\x86\Debug\XamlSaveStateFile.xml
-C:\Users\Herdi\Documents\GitHub\GiziUntukAnak\GiziUntukAnak\obj\x86\Debug\GiziUntukAnak.exe
-C:\Users\Herdi\Documents\GitHub\GiziUntukAnak\GiziUntukAnak\obj\x86\Debug\GiziUntukAnak.pdb
 C:\Users\Herdi\Documents\GitHub\GiziUntukAnak\GiziUntukAnak\obj\x86\Debug\ResourceHandlingTask.state
 C:\Users\Herdi\Documents\GitHub\GiziUntukAnak\GiziUntukAnak\obj\x86\Debug\FxResources.Microsoft.CSharp.SR.resw
 C:\Users\Herdi\Documents\GitHub\GiziUntukAnak\GiziUntukAnak\obj\x86\Debug\FxResources.Microsoft.VisualBasic.SR.resw
@@ -455,3 +450,9 @@ C:\Users\Herdi\Documents\GitHub\GiziUntukAnak\GiziUntukAnak\obj\x86\Debug\ListVi
 C:\Users\Herdi\Documents\GitHub\GiziUntukAnak\GiziUntukAnak\obj\x86\Debug\ListView\TabHeader.g.cs
 C:\Users\Herdi\Documents\GitHub\GiziUntukAnak\GiziUntukAnak\obj\x86\Debug\ListView\TabHeader.xaml
 C:\Users\Herdi\Documents\GitHub\GiziUntukAnak\GiziUntukAnak\obj\x86\Debug\ListView\TabHeader.xbf
+C:\Users\Herdi\Documents\GitHub\GiziUntukAnak\GiziUntukAnak\bin\x86\Debug\Core\Gizi Anak.exe
+C:\Users\Herdi\Documents\GitHub\GiziUntukAnak\GiziUntukAnak\bin\x86\Debug\GiziUntukAnak.xr.xml
+C:\Users\Herdi\Documents\GitHub\GiziUntukAnak\GiziUntukAnak\bin\x86\Debug\GiziUntukAnak.exe
+C:\Users\Herdi\Documents\GitHub\GiziUntukAnak\GiziUntukAnak\bin\x86\Debug\GiziUntukAnak.pdb
+C:\Users\Herdi\Documents\GitHub\GiziUntukAnak\GiziUntukAnak\obj\x86\Debug\GiziUntukAnak.exe
+C:\Users\Herdi\Documents\GitHub\GiziUntukAnak\GiziUntukAnak\obj\x86\Debug\GiziUntukAnak.pdb

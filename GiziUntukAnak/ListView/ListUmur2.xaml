@@ -7,7 +7,7 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <Grid Background="Azure">
 
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto" />
@@ -31,7 +31,7 @@
             
             >
             <SplitView.Pane>
-                <ListBox SelectionMode="Single"  Name="iconListBox" SelectionChanged="iconListBox_SelectionChanged" Background="Azure">
+                <ListBox SelectionMode="Single"  Name="iconListBox" SelectionChanged="iconListBox_SelectionChanged" Background="LightGreen">
                     <ListBoxItem Name="BerandaListBoxItem">
                         <StackPanel Orientation="Horizontal">
                             <TextBlock FontFamily="Segoe MDL2 Assets" FontSize="30" Text="&#xe80F;"/>
@@ -64,14 +64,23 @@
             <!--Tab Pivot-->
             <Pivot>
 
-                <PivotItem>
+                <PivotItem> 
                     <PivotItem.Header>
                         <local:TabHeader Label="Permasalahan" Glyph="&#xE716;"  Width="78" />
                     </PivotItem.Header>
 
 <!--Tab Pivot Permasalahan-->
+                    
+                        
                     <GridView>
-                        <StackPanel>
+                        <!--
+                        
+                        <Grid>
+                            <Grid.Background>
+                                <ImageBrush Stretch="None" ImageSource="ms-appx:///Assets/bc.png"  AlignmentY="Top" AlignmentX="Center"/>
+                            </Grid.Background>
+-->
+                            <StackPanel>
                             
                             <RichTextBlock>
                                 <Paragraph FontSize="12" TextAlignment="Justify">
@@ -129,7 +138,9 @@
                             </RichTextBlock>
                             
                         </StackPanel>
-                    </GridView>
+                            
+                      <!--  </Grid> -->
+                    </GridView> 
                 </PivotItem>
 
                 <PivotItem>
@@ -264,8 +275,11 @@
                             </RichTextBlock>
 
                         </StackPanel>
+
                     </GridView>
-                </PivotItem>
+    
+
+    </PivotItem>
 
             </Pivot>
 

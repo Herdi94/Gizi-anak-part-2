@@ -7,7 +7,7 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <Grid Background="Azure">
 
 
         <Grid.RowDefinitions>
@@ -32,7 +32,7 @@
             
             >
             <SplitView.Pane>
-                <ListBox SelectionMode="Single"  Name="iconListBox" SelectionChanged="iconListBox_SelectionChanged" Background="Azure">
+                <ListBox SelectionMode="Single"  Name="iconListBox" SelectionChanged="iconListBox_SelectionChanged" Background="LightGreen">
                     <ListBoxItem Name="BerandaListBoxItem">
                         <StackPanel Orientation="Horizontal">
                             <TextBlock FontFamily="Segoe MDL2 Assets" FontSize="30" Text="&#xe80F;"/>

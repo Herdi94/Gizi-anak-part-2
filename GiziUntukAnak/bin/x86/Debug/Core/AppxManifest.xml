@@ -23,10 +23,11 @@
     <Resource Language="EN-US" />
   </Resources>
   <Applications>
-    <Application Id="App" Executable="GiziUntukAnak.exe" EntryPoint="GiziUntukAnak.App">
-      <uap:VisualElements DisplayName="Gizi Untuk Anak" Square150x150Logo="Assets\Square150x150Logo.png" Square44x44Logo="Assets\Square44x44Logo.png" Description="Gizi seimbang untuk anak" BackgroundColor="transparent">
+    <Application Id="App" Executable="GiziUntukAnak.exe" EntryPoint="GiziAnak.App">
+      <uap:VisualElements DisplayName="Gizi Anak" Square150x150Logo="Assets\Square150x150Logo.png" Square44x44Logo="Assets\Square44x44Logo.png" Description="Gizi seimbang untuk anak" BackgroundColor="transparent">
+        <uap:LockScreen Notification="badge" BadgeLogo="Assets\BadgeLogo.png" />
         <uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.png"></uap:DefaultTile>
-        <uap:SplashScreen Image="Assets\SplashScreen.png" />
+        <uap:SplashScreen Image="Assets\SplashScreen.png" BackgroundColor="white" />
       </uap:VisualElements>
     </Application>
   </Applications>

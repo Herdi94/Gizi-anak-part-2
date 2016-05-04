@@ -32,7 +32,7 @@
             IsPaneOpen="False"
             >
             <SplitView.Pane>
-                <ListBox SelectionMode="Single"  Name="iconListBox" SelectionChanged="iconListBox_SelectionChanged"  Background="Azure">
+                <ListBox SelectionMode="Single"  Name="iconListBox" SelectionChanged="iconListBox_SelectionChanged"  Background="LightGreen">
                     <ListBoxItem Name="BerandaListBoxItem">
                         <StackPanel Orientation="Horizontal">
                             <TextBlock FontFamily="Segoe MDL2 Assets" FontSize="30" Text="&#xe80F;"/>
@@ -66,11 +66,15 @@
            
                 
 <!-- RichTextBlock can copy the text-->
-            <StackPanel>
+            <GridView Background="Azure">
+                <StackPanel >
                 <RichTextBlock>
                     <Paragraph FontSize="12" TextAlignment="Justify">
-                        <LineBreak/>
-                        Gizi Untuk Anak merupakan aplikasi untuk mengetahui permasalahan gizi yang sering dihadapi anak serta solusi dari kebutuhan zat gizi sehingga sesuai dengan prinsip - prinsip gizi seimbang.
+                        
+                        Gizi Anak merupakan aplikasi untuk mengetahui permasalahan gizi yang sering dihadapi anak serta solusi dari kebutuhan zat gizi sehingga sesuai dengan prinsip - prinsip gizi seimbang.
+                        Pada masa balita disebut juga masa keemasan(golden age) yang merupakan pembentukan kualitas SDM bangsa untuk menjadi manusia unggul dan cerdas. Jika semakin banyak bayi dan anak-anak yang mengalami gizi buruk maka akan mendatangkan masalah bagi kualitas SDM kita kelak. Pada masa keemasan ini, agar pertumbuhannya optimal dan cerdas tentunya harus memperhatikan prinsip-prinsip
+                        Gizi Seimbang yang nantinya juga mempengaruhi kecerdasannya pada masa sekolah dasar(SD). Kebutuhan gizi anak sekolah dasar pun meningkat, disesuaikan dengan berat badan, tinggi badan, umur,
+                        aktivitas anak sekolah dasar(SD) dan asupan gizi sesuai dengan aktivitasnya sehingga mendapatkan berat badan ideal(BBI) serta tumbuh menjadi anak yang tangguh dan cerdas.
                         <LineBreak/>
                         <LineBreak/>
                         <Bold>Copyright by : Herdi Zulfiqri</Bold>
@@ -83,6 +87,7 @@
                 </RichTextBlock>
             
                 </StackPanel>
+            </GridView>
         </SplitView>
 
 
